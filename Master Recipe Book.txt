@@ -115,11 +115,6 @@ Ingredients
 	Chopped chili pepper
 	1/2-1 Tbsp soy sauce
 
-Source direction
-The source contains the ingredient list but no preparation directions for the ra-yu.
-
-Source: http://vegetablegohan.blogspot.com/2011/04/taberu-ra-yu-dressing-salad.html
-
 Variations
 	Crispy rice: Serve the spicy tuna mixture on crispy sushi rice and garnish with jalapeno slices.
 	Tropical: Add diced mango or pineapple. Use coconut-infused sake instead of vodka.
@@ -558,8 +553,6 @@ Mini Pies
 2. Divide the filling among the tins. Bake on the same half-sheet pan until the center jiggles slightly but the sides are set, about 25 minutes. Cool on a rack for 2 hours.
 3. Spread 1 tsp brown sugar on each pie. Melt the sugar with a blowtorch to form a crisp top. Cool for 5 minutes before serving.
 
-Source: https://altonbrown.com/recipes/pumpkin-puree/
-
 
 Struffoli
 ---------
@@ -704,9 +697,6 @@ Timing and Yield
 Make Ahead
 Blackberry juice can be made one day ahead and stored in an airtight container in the refrigerator. To prepare the punch ahead, mix in the sweet tea, water, and lime juice on the morning of the party. Add the ginger beer and frozen blackberries just before serving.
 
-Source
-By Melissa Gray; published July 22, 2023. https://www.southernliving.com/blackberry-lime-porch-punch-7556363?print
-
 
 Caramel Macchiato
 -----------------
@@ -755,10 +745,6 @@ Caramel Sauce Notes
 	To fix crystallized caramel, add 1/4 cup water and bring it back to a boil to dissolve the crystals, then continue cooking.
 	Use a heavy-bottomed pan for even heat. Do not stir or move the pan after wetting the sugar until the cream is added. Once the cream is added, the fat helps prevent crystallization.
 
-Sources
-	Caramel macchiato: https://www.fifteenspatulas.com/coffeehouse-style-caramel-macchiato/
-	Caramel sauce: https://www.fifteenspatulas.com/homemade-caramel-sauce/
-
 
 Cherry Limeade
 --------------
@@ -782,9 +768,6 @@ Timing and Yield
 	Active time: 5 minutes
 	Total time: 5 minutes
 	Serves: 10
-
-Source
-By Craig Ruff; recipe tested by Southern Living Test Kitchen; published July 14, 2024. https://www.southernliving.com/cherry-limeade-8660483?print
 
 
 Classic Sweet Tea
@@ -812,9 +795,6 @@ Timing and Yield
 	Total time: 50 minutes
 	Yield: 2 qt
 
-Source
-By Sheri Castle; recipe tested by Southern Living Test Kitchen; updated May 13, 2024. https://www.southernliving.com/recipes/classic-sweet-tea?print
-
 
 Coffee - French Press Cold Brew
 -------------------------------
@@ -837,19 +817,13 @@ Yield and Notes
 	Yield: 2 1/2 cups concentrate (5 servings).
 	Filtered water gives the best flavor; a medium-coarse grind is important to avoid bitter, cloudy coffee.
 
-Source: Sonja Overhiser, A Couple Cooks. https://www.acouplecooks.com/french-press-cold-brew/print/109776/
-
 Turn Hot Coffee Cold
 Brew coffee according to the package directions using a percolator, French press, or another coffee maker. Transfer the hot coffee to an airtight container and refrigerate until cold, 1-2 hours. Keep it airtight in the refrigerator to prevent oxidation and stale or musty flavors. Serve over ice with sweetener or milk as desired. Extra ice can dilute the coffee; brew it with twice the usual amount of grounds or freeze extra coffee in ice-cube trays.
-
-Source: https://www.southernliving.com/how-to-make-iced-coffee-7483816
 
 Cold Brew Coffee (Alternate Method)
 Cold brew has a mellow flavor and concentrated caffeine. It requires at least 12 hours of preparation. Use coarsely ground coffee; finely ground coffee can make the brew bitter and cloudy. Combine 3/4 cup ground coffee with 4 cups room-temperature water in a large container or French press. Leave at room temperature for 12-24 hours, agitating occasionally. Cover with cheesecloth and strain, or press the French press plunger. Serve over ice with milk or sweetener as desired. The source says covered cold brew keeps in the refrigerator for up to 2 weeks.
 
 The source compares caffeine in a 16 oz Starbucks cold brew (205 mg) with an iced coffee of the same size (165 mg).
-
-Source: https://www.southernliving.com/how-to-make-iced-coffee-7483816
 
 
 Coffee - Instant - Whipped COffee
@@ -870,9 +844,6 @@ Directions
 Yield
 Serves 2.
 
-Source
-Rachael Ray Show: https://www.rachaelrayshow.com/recipes/whipped-coffee-recipe
-
 
 Frozen Caramel Coffee Slushies
 ------------------------------
@@ -892,9 +863,6 @@ The source does not include preparation directions.
 
 Yield
 2 servings.
-
-Source
-https://www.yummly.com/recipe/Frozen-Caramel-Coffee-Slushies-2663631
 
 
 Frozen Strawberry Lemonade
@@ -924,9 +892,6 @@ Timing and Yield
 	Total time: 20 minutes
 	Serves: 2
 
-Source
-By Southern Living Test Kitchen; updated April 15, 2024; additional reporting by Katie Rosenhouse. https://www.southernliving.com/recipes/frozen-strawberry-lemonade?print
-
 
 Lemonade Iced Tea
 -----------------
@@ -949,9 +914,6 @@ Timing and Yield
 	Active time: 15 minutes
 	Total time: 25 minutes
 	Serves: 4
-
-Source
-By Elizabeth Mervosh; published April 19, 2023. https://www.southernliving.com/lemonade-iced-tea-7377221?print
 
 
 Lemon-Mint Sparklers
@@ -990,9 +952,6 @@ Prepare the syrup as directed, then omit the lemon juice and reduce the syrup to
 Timing
 Hands-on time: 30 minutes; total time: 1 hour 30 minutes.
 
-Source
-By Southern Living Test Kitchen; updated April 16, 2024. https://www.southernliving.com/recipes/lemon-mint-sparklers?print
-
 
 Minty Lemonade Iced Tea
 -----------------------
@@ -1021,9 +980,6 @@ Variations
 Timing and Yield
 Prep: 10 minutes; cook: 5 minutes; steep: 10 minutes; total: 25 minutes. Yield: 8 cups.
 
-Source
-By Southern Living Test Kitchen; updated April 21, 2023. https://www.southernliving.com/recipes/lemonade-iced-tea?print
-
 
 Mocha Coffee With Mint
 ----------------------
@@ -1040,9 +996,6 @@ Directions
 1. While the coffee brews, whip the cream to soft peaks and fold in 1 tsp mint syrup.
 2. When the coffee is ready, mix in 2 tsp chocolate syrup and 1 tsp mint syrup.
 3. Top the coffee with the mint whipped cream and a sprig of mint. Serve.
-
-Source
-https://www.rachaelrayshow.com/recipes/mocha-coffee-with-mint
 
 
 Party Punch
@@ -1068,9 +1021,6 @@ Timing and Yield
 	Active time: 5 minutes
 	Total time: 5 minutes, plus chilling if needed
 	Serves: 12
-
-Source
-By Julia Levy; published February 20, 2024; recipe tested by Southern Living Test Kitchen; additional reporting by Alesandra Dubin. https://www.southernliving.com/party-punch-8422956?print
 
 
 Rosemary Ginger Mule
@@ -1108,9 +1058,6 @@ Timing and Yield
 	Total time: 40 minutes
 	Serves: 1
 
-Source
-By Chris Marshall; published November 8, 2021. https://www.southernliving.com/recipes/rosemary-and-ginger-mule?print
-
 
 Shirley Temple
 --------------
@@ -1136,9 +1083,6 @@ Timing and Yield
 	Active time: 5 minutes
 	Total time: 5 minutes
 	Serves: 1
-
-Source
-By Amanda Stanfield; updated April 15, 2024; recipe tested by Southern Living Test Kitchen; additional reporting by Alesandra Dubin. https://www.southernliving.com/shirley-temple-drink-7368455?print
 
 
 Sparkling Cherry Limeade Recipe
@@ -1167,9 +1111,6 @@ The source tested this recipe with San Pellegrino Sparkling Natural Mineral Wate
 Timing and Yield
 Hands-on time: 10 minutes; total time: 10 minutes. Yield: 8 cups.
 
-Source
-By Southern Living Test Kitchen; updated February 20, 2023. https://www.southernliving.com/recipes/sparkling-cherry-limeade?print
-
 
 Strawberry Lemonade
 -------------------
@@ -1192,9 +1133,6 @@ Timing and Yield
 	Active time: 25 minutes
 	Total time: 35 minutes
 	Serves: 4
-
-Source
-By Elizabeth Mervosh; updated June 15, 2024; recipe tested by Southern Living Test Kitchen. https://www.southernliving.com/strawberry-lemonade-7377513?print
 
 
 Strawberry Spritzers
@@ -1227,9 +1165,6 @@ Active time for shrub: 10 minutes; total time: 2 days, 10 minutes.
 Timing and Yield
 Active time: 5 minutes; total time: 5 minutes. Serves: 1.
 
-Source
-By Anna Theoktisto; published April 25, 2023. https://www.southernliving.com/strawberry-spritzers-7375780?print
-
 
 Tennessee Fruit Tea
 -------------------
@@ -1248,9 +1183,6 @@ Directions
 
 Yield
 Serves 16.
-
-Source
-By Amy Cipolla Barnes; published May 26, 2023. https://www.southernliving.com/tennessee-fruit-tea-7504867?print
 
 
 Watermelon-Basil Sweet Tea
@@ -1281,9 +1213,6 @@ Timing and Yield
 
 Note
 The source refers to Watermelon Simple Syrup but does not include its recipe here.
-
-Source
-By Ivy Odom; published May 23, 2023. https://www.southernliving.com/watermelon-basil-sweet-tea-7495989?print
 
 
 MEALS
@@ -1968,9 +1897,6 @@ Directions
 3. Add the black beans, spices, vinegar, salsa verde, and Cholula. The source does not specify whether to mash the beans.
 4. Serve in tortillas, if desired.
 
-Source note
-Prep time: 5 minutes. Cook time: 20 minutes.
-
 
 Risotto (Deb)
 -------------
@@ -2205,10 +2131,6 @@ Ingredients
 Directions
 Mix everything together and store in a glass jar.
 
-Source
-	http://thehumbledhomemaker.com/2013/02/homemade-chili-powder.html#sthash.fhc2AcLu.dpuf
-	http://thehumbledhomemaker.com/2013/02/homemade-chili-powder.html
-
 
 Cranberry Sauce
 ---------------
@@ -2271,9 +2193,6 @@ Directions
 Yield and Uses
 Makes 1/3 cup. The source suggests using the blend with meat, poultry, seafood, grilled vegetables, or roasted vegetables. It also mentions Emeril Lagasse's original recipe on his website.
 
-Source
-http://thenourishinghome.com/2012/03/homemade-emerils-essence-seasoning-blend/
-
 
 Horseradish
 -----------
@@ -2288,9 +2207,6 @@ Ingredients
 
 Directions
 The source does not include preparation directions.
-
-Source
-http://www.simplyrecipes.com/recipes/horseradish_sauce/
 
 
 Italian Dressing
@@ -2311,9 +2227,6 @@ Ingredients
 Directions
 The source labels this as an Italian dressing mix but does not include directions for mixing or preparing a dressing.
 
-Source
-http://heavenlyhomemakers.com/more-healthy-salad-dressing-recipes-italian-and-thousand-island
-
 
 Ketchup
 --------
@@ -2332,12 +2245,6 @@ Ingredients
 
 Directions
 The source does not include preparation directions.
-
-Source Notes
-Author: Brianne @ Cupcakes & Kale Chips. Adapted from Fix Me a Snack's Homemade Ketchup. Recipe type: dip, condiment. The source refers to a note for the cider-vinegar amount, but that note was not included in this file.
-
-Source
-http://cupcakesandkalechips.com/2013/10/03/homemade-ketchup/
 
 
 Mayo
@@ -2361,9 +2268,6 @@ Store in the refrigerator for up to 2 weeks.
 
 Attribution
 Adapted from Satisfying Eats Cookbook.
-
-Source
-http://www.satisfyingeats.com/condiments/best-homemade-mayo/
 
 
 Mushroom Sauce
@@ -2436,9 +2340,6 @@ Directions
 5. To make a dressing, add a few tablespoons of water or milk and stir. Add more until it reaches the desired consistency.
 6. Serve with vegetables, salad, or ranch chicken.
 
-Source
-http://day2dayjoys.com/2012/07/ranch.html
-
 
 Remos Rub Powder
 ----------------
@@ -2509,9 +2410,6 @@ Ingredients
 Directions
 Add 1 1/3 Tbsp seasoning to 1 lb browned ground beef.
 
-Source
-http://wholeintentions.com/2011/10/homemade-sausage-seasoning/
-
 
 Sweet Curry Powder
 ------------------
@@ -2535,9 +2433,6 @@ Ingredients
 Directions
 The source does not include preparation directions.
 
-Source
-http://wholenewmom.com/recipes/curry-recipes-how-to-make-curry-curry-powder/
-
 
 Taco Seasoning Powder
 ---------------------
@@ -2558,9 +2453,6 @@ The source does not include preparation directions.
 Yield
 3 Tbsp.
 
-Source
-http://thehumbledhomemaker.com/2011/07/homemade-homemaking-taco-seasoning.html
-
 
 Thousand Island Dressing
 ------------------------
@@ -2575,9 +2467,6 @@ Ingredients
 
 Directions
 The source does not include preparation directions.
-
-Source
-http://heavenlyhomemakers.com/more-healthy-salad-dressing-recipes-italian-and-thousand-island
 
 
 Tomato Sauce for Pasta (Quick and Easy)
