@@ -1,0 +1,21 @@
+# Ketchup
+
+Homemade ketchup; the source describes it as a dip or condiment with no added sugar or unusual ingredients, adjustable to taste, and says it "counts as a veggie."
+
+## Ingredients
+- 1 (6 oz) can tomato paste
+- 1/4-1/2 cup cider vinegar (see source note)
+- 1/2 tsp salt
+- 1/2 tsp dried oregano
+- 1/2 tsp cumin
+- 1/8 tsp pepper
+- 1 tsp mustard powder
+
+## Directions
+The source does not include preparation directions.
+
+## Source Notes
+Author: Brianne @ Cupcakes & Kale Chips. Adapted from Fix Me a Snack's Homemade Ketchup. Recipe type: dip, condiment. The source refers to a note for the cider-vinegar amount, but that note was not included in this file.
+
+## Source
+<http://cupcakesandkalechips.com/2013/10/03/homemade-ketchup/>

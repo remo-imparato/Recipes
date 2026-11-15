@@ -1,0 +1,27 @@
+# Frozen Strawberry Lemonade
+
+This fruity, refreshing drink is perfect for a pool party.
+
+## Ingredients
+- 1 (12 oz) container frozen lemonade
+- 1 cup frozen strawberries
+- 1 tsp sugar
+- 1 tsp lemon zest
+- 1 cup ice
+- 1 1/4 cups club soda, divided
+- Fresh strawberries, for topping
+- Lemon slices, for garnish
+
+## Directions
+1. In a small bowl, combine the frozen strawberries and sugar. Let stand for at least 10 minutes.
+2. In a blender, combine the frozen lemonade, ice, lemon zest, and 1/2 cup club soda. Blend until smooth, transfer to a pitcher, and set aside.
+3. In the clean blender, combine the strawberries and remaining 3/4 cup club soda. Blend until smooth.
+4. Layer the strawberry and lemon mixtures in cups and stir gently to combine. Garnish with lemon slices and fresh strawberries.
+
+## Timing and Yield
+- Active time: 10 minutes
+- Total time: 20 minutes
+- Serves: 2
+
+## Source
+By Southern Living Test Kitchen; updated April 15, 2024; additional reporting by Katie Rosenhouse. <https://www.southernliving.com/recipes/frozen-strawberry-lemonade?print>

@@ -1,0 +1,22 @@
+# Mayo
+
+## Ingredients
+- 2 whole pastured eggs
+- 1 Tbsp apple cider vinegar
+- 3/4 tsp salt
+- 2 tsp prepared mustard
+- 2 cups light olive oil (not a vegetable blend)
+
+## Directions
+1. Blend the eggs, vinegar, salt, and mustard in a food processor.
+2. With the machine running, add the oil very slowly. Continue until all the oil has been added and the mixture has formed an emulsion.
+3. Taste and adjust the salt if needed.
+
+## Storage
+Store in the refrigerator for up to 2 weeks.
+
+## Attribution
+Adapted from *Satisfying Eats Cookbook*.
+
+## Source
+<http://www.satisfyingeats.com/condiments/best-homemade-mayo/>

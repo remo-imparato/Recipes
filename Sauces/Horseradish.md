@@ -1,0 +1,14 @@
+# Horseradish
+
+## Ingredients
+- 3 Tbsp prepared horseradish (the source includes a link for making prepared horseradish)
+- 1/4 cup sour cream
+- 1 tsp Dijon mustard
+- 1 Tbsp mayonnaise
+- 1 Tbsp chopped chives or green onion tops
+
+## Directions
+The source does not include preparation directions.
+
+## Source
+<http://www.simplyrecipes.com/recipes/horseradish_sauce/>

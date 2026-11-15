@@ -1,0 +1,22 @@
+# Ethiopian Chicken Stew
+
+## Ingredients
+- 1 (2.5-3 lb) cut-up fryer chicken
+- 1/4 cup plus 2 Tbsp lemon juice, divided
+- 3 Tbsp oil
+- 1 large onion, peeled and finely chopped
+- 1 1/2 tsp paprika
+- 1/4 tsp cayenne pepper
+- 1/2 tsp ground ginger
+- 1/4 tsp black pepper
+- 1/2 tsp salt
+- 1 Tbsp flour
+- 3 cups cooked white rice
+
+## Directions
+1. Remove the skin from the chicken. Combine 1/4 cup lemon juice with 2 cups water. Soak the chicken in the lemon water for 15 minutes, then drain.
+2. Heat the oil in a large pan over medium heat. Add the onion and cook until golden brown, about 15 minutes.
+3. Stir in the paprika, cayenne, ginger, black pepper, and salt. Add 1 cup water and bring to a boil. Cover, reduce the heat, and simmer for 40 minutes or until the chicken is cooked through, turning the chicken occasionally.
+4. Remove the chicken from the cooking liquid and let it cool slightly. Remove the meat from the bones and pull it into coarse shreds.
+5. Combine the flour with the remaining 2 Tbsp lemon juice and 2 Tbsp water. Bring the cooking liquid back to a boil and add the flour mixture. Cook for 3-4 minutes, until thickened.
+6. Return the chicken to the sauce and let it sit for 2-3 minutes. Serve the chicken and sauce over rice.

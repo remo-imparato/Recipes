@@ -1,0 +1,24 @@
+# Party Punch
+
+Every Southern host knows it's not a party without party punch.
+
+## Ingredients
+- 1 (64 oz) bottle cranberry-watermelon juice, chilled
+- 1 (12 oz) can frozen limeade concentrate, thawed
+- 3/4 cup (6 oz) vodka or white rum (optional)
+- 1 (1 L) bottle ginger ale, chilled
+- 1 medium (5-6 oz) orange, thinly sliced crosswise
+- 1 cup sliced fresh strawberries
+- Ice, for serving
+
+## Directions
+1. Stir the cranberry-watermelon juice, limeade, and vodka, if using, together in a large punch bowl or pitcher. If the mixture is not already chilled, refrigerate until cold, about 1 hour.
+2. When ready to serve, add the ginger ale, orange slices, and strawberries. Serve chilled with ice.
+
+## Timing and Yield
+- Active time: 5 minutes
+- Total time: 5 minutes, plus chilling if needed
+- Serves: 12
+
+## Source
+By Julia Levy; published February 20, 2024; recipe tested by Southern Living Test Kitchen; additional reporting by Alesandra Dubin. <https://www.southernliving.com/party-punch-8422956?print>

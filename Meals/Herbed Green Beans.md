@@ -1,0 +1,20 @@
+# Herbed Green Beans
+
+## Ingredients
+- 1 lb fresh green beans
+- 3-4 qt rapidly boiling water
+- 4 Tbsp butter
+- 1/2 cup minced onion
+- 1/2 clove garlic, minced
+- 1/4 cup minced celery
+- 1/2 cup minced parsley
+- 1 tsp fresh rosemary or 1/4 tsp dried rosemary
+- 1/4 tsp dried basil
+- 3/4 tsp salt
+
+## Directions
+1. Trim the ends from the beans and cut them diagonally into 2-inch pieces.
+2. Blanch in the rapidly boiling water for 6-8 minutes, or until tender-crisp. Drain and rinse in cold water.
+3. Melt the butter in a skillet. Saute the onion, garlic, and celery for about 5 minutes.
+4. Add the parsley, rosemary, basil, and salt. Cover and simmer for 10 minutes.
+5. Before serving, toss the green beans with the herb-flavored butter and warm them through.

@@ -1,0 +1,32 @@
+# Coffee - French Press Cold Brew
+
+## Ingredients
+- 2 cups dark-roast coffee (140 g), medium-coarse grind
+- 3 1/2 cups filtered water (840 g)
+- 8-cup / 34-oz (1 L) French press
+
+## Directions
+1. Grind the coffee to a medium-coarse grind.
+2. Add the grounds and water to the French press and stir several times.
+3. Cover the press with plastic wrap or foil and refrigerate for 24 hours. (Alternatively, cover with the top, with the plunger up; this may make the press difficult to fit in the refrigerator.)
+4. Fit the lid and slowly press the plunger all the way down. Pour the concentrate into a large jar or pitcher. Store refrigerated for up to 1 week.
+5. To serve, dilute 1/2 cup concentrate with 1/2 cup water or milk. For iced coffee, use 1/2 cup concentrate with 1/4 cup water and ice.
+
+## Yield and Notes
+- Prep time: 24 hours; cook time: 0 minutes.
+- Yield: 2 1/2 cups concentrate (5 servings).
+- Filtered water gives the best flavor; a medium-coarse grind is important to avoid bitter, cloudy coffee.
+
+Source: Sonja Overhiser, A Couple Cooks. <https://www.acouplecooks.com/french-press-cold-brew/print/109776/>
+
+## Turn Hot Coffee Cold
+Brew coffee according to the package directions using a percolator, French press, or another coffee maker. Transfer the hot coffee to an airtight container and refrigerate until cold, 1-2 hours. Keep it airtight in the refrigerator to prevent oxidation and stale or musty flavors. Serve over ice with sweetener or milk as desired. Extra ice can dilute the coffee; brew it with twice the usual amount of grounds or freeze extra coffee in ice-cube trays.
+
+Source: <https://www.southernliving.com/how-to-make-iced-coffee-7483816>
+
+## Cold Brew Coffee (Alternate Method)
+Cold brew has a mellow flavor and concentrated caffeine. It requires at least 12 hours of preparation. Use coarsely ground coffee; finely ground coffee can make the brew bitter and cloudy. Combine 3/4 cup ground coffee with 4 cups room-temperature water in a large container or French press. Leave at room temperature for 12-24 hours, agitating occasionally. Cover with cheesecloth and strain, or press the French press plunger. Serve over ice with milk or sweetener as desired. The source says covered cold brew keeps in the refrigerator for up to 2 weeks.
+
+The source compares caffeine in a 16 oz Starbucks cold brew (205 mg) with an iced coffee of the same size (165 mg).
+
+Source: <https://www.southernliving.com/how-to-make-iced-coffee-7483816>

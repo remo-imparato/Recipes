@@ -1,0 +1,15 @@
+# Chili Powder
+
+## Ingredients
+- 1 tsp paprika
+- 2 tsp cumin
+- 1 tsp cayenne
+- 1 tsp oregano
+- 2 tsp garlic powder
+
+## Directions
+Mix everything together and store in a glass jar.
+
+## Source
+- <http://thehumbledhomemaker.com/2013/02/homemade-chili-powder.html#sthash.fhc2AcLu.dpuf>
+- <http://thehumbledhomemaker.com/2013/02/homemade-chili-powder.html>

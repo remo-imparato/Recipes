@@ -1,0 +1,15 @@
+# Crab Cake
+
+## Ingredients
+- 1 lb backfin crab
+- 1 lb lump crab
+- 3 Tbsp mayonnaise
+- 1 egg white
+- Old Bay, to taste
+
+## Directions
+1. Combine the crab, mayonnaise, egg white, and Old Bay gently, taking care not to break up the lumps.
+2. Form into cakes and fry or bake.
+
+## Note
+No breadcrumbs or flour: adding either would make this a crab loaf, according to the source.

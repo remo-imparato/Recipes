@@ -1,0 +1,35 @@
+# Rosemary Ginger Mule
+
+A mocktail for the winter season.
+
+## Ingredients
+- 1 (7 1/2 oz) can nonalcoholic ginger beer
+- 1 Tbsp fresh lime juice (from 1 lime)
+- 2 Tbsp Rosemary Syrup
+- Ice
+- Rosemary sprig and fresh lime wheel, for garnish
+
+## Directions
+1. Fill a copper mug with ice. Stir together the ginger beer, Rosemary Syrup, and lime juice until the mug is frosty, about 30 seconds.
+2. Lightly smack the rosemary sprig against your palm to release its oils. Garnish with the rosemary and lime wheel.
+
+## Rosemary Syrup
+### Ingredients
+- 1 cup water
+- 1 cup granulated sugar
+- 1 cup loosely packed rosemary sprigs
+
+### Directions
+1. Bring the water, sugar, and rosemary to a boil in a small saucepan over medium-high heat, stirring occasionally. Boil, stirring occasionally, until the sugar dissolves, about 1 minute.
+2. Remove from the heat, cover, and steep for 30 minutes. Pour through a fine-mesh strainer into a glass or jar; discard the rosemary.
+
+Makes 1 1/2 cups. Store in an airtight glass jar in the refrigerator for up to 3 weeks.
+
+## Timing and Yield
+- Active time: 10 minutes
+- Cool time: 30 minutes
+- Total time: 40 minutes
+- Serves: 1
+
+## Source
+By Chris Marshall; published November 8, 2021. <https://www.southernliving.com/recipes/rosemary-and-ginger-mule?print>

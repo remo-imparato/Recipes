@@ -1,14 +1,14 @@
 # Cheesy Potatoes
 
 ## Ingredients
-
-- 1 Package of Frozen Hash browns (Cubed)
-- 1 Can Cream of Mushroom Soup
-- 1 Package of Shredded Cheddar Cheese
-- 1 Container of Sour Cream
-- 1/2 Diced Onion (Optional)
-- 1/2 Stick of Real Butter
+- 1 package cubed frozen hash browns
+- 1 can cream of mushroom soup
+- 1 package shredded cheddar cheese
+- 1 container sour cream
+- 1/2 diced onion (optional)
+- 1/2 stick real butter
 
 ## Directions
-
-Sautee the onion in a pan with the butter. Mix all ingredients in a bowl, then place in a casserole dish. Cook for 45 minutes at 350 degrees.
+1. Saute the onion in a pan with the butter.
+2. Mix all the ingredients in a bowl and place in a casserole dish.
+3. Bake at 350 F for 45 minutes.

@@ -1,19 +1,18 @@
 # Chili
 
 ## Ingredients
-
-- 1 lb. Ground Beef
-- 1 lb. Ground Sausage
-- 2 Cans Tomato Sauce
-- 2 Cans Diced Tomatoes
-- 1 Can Chili Beans
-- 1 Can Kidney Beans (Drained & Rinsed)
-- 1/2 Diced Onion
-- 1/2 Diced Green Pepper (optional)
-- Minced Garlic
-- 1 Package Chili Seasoning
-- Cayenne Pepper
+- 1 lb ground beef
+- 1 lb ground sausage
+- 2 cans tomato sauce
+- 2 cans diced tomatoes
+- 1 can chili beans
+- 1 can kidney beans, drained and rinsed
+- 1/2 diced onion
+- 1/2 diced green pepper (optional)
+- Minced garlic
+- 1 package chili seasoning
+- Cayenne pepper
 
 ## Directions
-
-Brown ground beef, sausage, onion, green pepper and garlic, then drain grease. Combine all ingredients in a large saucepan. Let simmer, while stirring occasionally for 1 hour.
+1. Brown the ground beef, sausage, onion, green pepper, and garlic; drain the grease.
+2. Combine all the ingredients in a large saucepan. Simmer for 1 hour, stirring occasionally.

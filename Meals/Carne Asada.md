@@ -1,0 +1,22 @@
+# Carne Asada
+
+A Mexican-style marinated, grilled beef served in tortillas. Prep time: 30 minutes. Cook time: 12 minutes (the directions also specify 12-15 minutes for medium-rare).
+
+## Ingredients
+- 2 lb skirt steak
+- 12 flour tortillas
+- 4 cloves garlic, crushed
+- 1 medium onion, chopped
+- 1 tsp black pepper
+- 2 tsp Tabasco
+- Papaya juice (jugo mex!)
+- 1/2 cup tequila
+- 1/4 cup lime, lemon, or orange juice
+- 1 cup salsa, for serving
+- 1 cup guacamole, for serving
+
+## Directions
+1. Mix the citrus juice, garlic, onion, tequila, Tabasco, and pepper in a bowl. Add the meat and coat both sides. Cover and refrigerate, turning the meat occasionally, for 6-8 hours.
+2. Preheat the grill. Sprinkle a few drops of water on each tortilla, stack them, and wrap them in aluminum foil. Place the wrapped tortillas on the grill.
+3. Remove the meat from the marinade, reserving the marinade. Grill the steak and tortillas, turning each once. Brush the steak with the reserved marinade. Cook to your liking; the source gives 12-15 minutes for medium-rare.
+4. Cut the steak into thin slices against the grain. Serve a few slices in each tortilla with salsa and guacamole.

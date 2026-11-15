@@ -1,0 +1,25 @@
+# Shirley Temple
+
+Nostalgic and sweet, a Shirley Temple is fun for kids of all ages.
+
+## Ingredients
+- 3-5 large square ice cubes
+- 1 Tbsp grenadine (such as Rose's)
+- 1 Tbsp fresh lime juice (from 1 lime)
+- 1 (8 oz) can lemon-lime soda (such as 7UP)
+- 3 whole maraschino cherries
+
+## Directions
+1. Place the ice cubes in a 16-oz highball glass.
+2. Add the grenadine, lime juice, and soda. Garnish with the cherries and serve immediately.
+
+## Variation: Dirty Shirley
+Add 1/4 cup (2 oz) chilled vodka with the grenadine, lime juice, and soda in step 2.
+
+## Timing and Yield
+- Active time: 5 minutes
+- Total time: 5 minutes
+- Serves: 1
+
+## Source
+By Amanda Stanfield; updated April 15, 2024; recipe tested by Southern Living Test Kitchen; additional reporting by Alesandra Dubin. <https://www.southernliving.com/shirley-temple-drink-7368455?print>

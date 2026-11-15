@@ -1,0 +1,22 @@
+# Strawberry Lemonade
+
+A spectacularly refreshing strawberry lemonade.
+
+## Ingredients
+- 12 oz fresh strawberries (about 3 cups), hulled and quartered, plus sliced strawberries for garnish
+- 4 1/2 cups water, divided
+- 3/4 cup granulated sugar
+- 3/4 cup fresh lemon juice (from 4 lemons)
+
+## Directions
+1. Bring the strawberries, 2 cups water, and sugar to a boil in a medium saucepan over medium heat, stirring occasionally to dissolve the sugar. Continue to boil gently, stirring occasionally, until the strawberries are very soft, about 10 minutes. Remove from the heat and cool for 10 minutes.
+2. Pour the mixture through a fine-mesh strainer into a small heatproof pitcher, pressing the solids with the back of a spoon to extract as much liquid as possible. Discard the solids.
+3. Stir in the lemon juice and remaining 2 1/2 cups water. Serve over ice and garnish with sliced strawberries.
+
+## Timing and Yield
+- Active time: 25 minutes
+- Total time: 35 minutes
+- Serves: 4
+
+## Source
+By Elizabeth Mervosh; updated June 15, 2024; recipe tested by Southern Living Test Kitchen. <https://www.southernliving.com/strawberry-lemonade-7377513?print>

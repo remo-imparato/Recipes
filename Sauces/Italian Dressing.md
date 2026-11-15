@@ -1,0 +1,18 @@
+# Italian Dressing
+
+## Ingredients
+- 1 1/2 tsp garlic powder
+- 1 Tbsp onion powder
+- 1 tsp mustard powder
+- 2 tsp oregano
+- 1 Tbsp dried parsley
+- 2 tsp sea salt
+- 1 tsp pepper
+- 1/4 tsp thyme
+- 1/2 tsp dried celery flakes
+
+## Directions
+The source labels this as an Italian dressing mix but does not include directions for mixing or preparing a dressing.
+
+## Source
+<http://heavenlyhomemakers.com/more-healthy-salad-dressing-recipes-italian-and-thousand-island>

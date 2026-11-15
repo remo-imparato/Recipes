@@ -1,13 +1,17 @@
 # Honey’s Macaroni
 
 ## Ingredients
-
 - Pasta
-- 1 Can Cream of Mushroom Soup
-- 1 Can Cut Green Beans (Drained)
-- Potato Chips
+- 1 can cream of mushroom soup
+- 1 can cut green beans, drained
+- Potato chips
 - Tuna
+- Salt and pepper
 
 ## Directions
+1. Boil the pasta, rinse, and combine it with all the ingredients except the potato chips, along with salt and pepper.
+2. Place the mixture in an uncovered casserole dish. Bake at 350 F for 35 minutes.
+3. Remove the casserole and cover the top with crushed potato chips. Continue baking for 10-15 minutes.
 
-Boil the pasta, rinse and combine all ingredients (except potato chips), along with salt & pepper. Place in a casserole dish, uncovered. Cook in the oven for 35 minutes at 350 degrees. Remove casserole and cover the top with crushed potato chips, continue cooking for 10-15 minutes.
+## Note
+The source content is titled "Honey's Macaroni," but lists tuna casserole ingredients and directions. These details have been retained as written; the intended recipe cannot be safely determined.

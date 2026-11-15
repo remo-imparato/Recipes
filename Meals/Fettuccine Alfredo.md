@@ -1,0 +1,22 @@
+# Fettuccine Alfredo
+
+## Ingredients
+- 24 oz dry fettuccine pasta
+- 1/2 cup butter
+- 3-4 Tbsp flour
+- 1 cup heavy cream
+- 1/2 cup milk
+- 1/8 cup lemon juice
+- 1/4 tsp garlic powder
+- 2 cups mixed grated Parmesan, Parmigiano, and/or Romano
+- Salt
+- White pepper
+- Nutmeg
+
+## Directions
+1. Cook the pasta.
+2. Melt the butter until it stops bubbling. Add the flour to make a blonde roux.
+3. Add the seasonings and liquids and bring to a low simmer. Mix in the cheese in batches.
+
+## Note
+The source does not give quantities for the salt, white pepper, or nutmeg, nor additional instructions for combining the sauce with the cooked pasta.

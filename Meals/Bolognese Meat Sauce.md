@@ -1,0 +1,54 @@
+# Bolognese Meat Sauce
+
+## Ingredients
+
+### Main recipe
+- 1 cup whole milk
+- 1 Tbsp vegetable oil
+- 3 Tbsp butter, plus 1 Tbsp for tossing with the pasta
+- 1/2 cup chopped onion
+- 2 cups chopped celery
+- 2/3 cup chopped carrot
+- 3/4 lb ground beef chuck
+- Salt
+- Freshly ground black pepper
+- Whole nutmeg, for grating (about 1/2 tsp)
+- 1 cup dry white wine
+- 1 1/2 cups canned imported Italian plum tomatoes, cut up with their juice
+- 1/4-1/2 lb pasta (the source gives this range)
+- Freshly grated Parmigiano-Reggiano, for serving
+
+### Alternate ingredient list also included in the source
+- 1 Tbsp olive oil
+- 3 Tbsp butter
+- 1 large onion, chopped
+- 2 celery stalks, chopped
+- 2 carrots, chopped
+- 1 lb ground beef chuck
+- Salt
+- 1 cup whole milk
+- 1/2 tsp nutmeg
+- 1 cup dry white wine
+- 1 large can imported Italian plum tomatoes
+- Black pepper
+
+## Directions
+1. Put the oil, butter, and chopped onion in a heat-retaining pot over medium heat. Cook, stirring, until the onion is translucent. Add the celery and carrot; cook for about 2 minutes, stirring to coat the vegetables.
+2. Add the ground beef, a large pinch of salt, and a few grinds of pepper. Crumble the meat with a fork, stir, and cook until it has lost its raw red color.
+3. Add the milk and simmer gently, stirring frequently, until it has evaporated. Grate in about 1/2 tsp nutmeg and stir.
+4. Add the wine. Simmer until it has evaporated, then add the tomatoes and stir thoroughly. When the tomatoes begin to bubble, reduce the heat to the gentlest simmer.
+5. Cook uncovered for at least 3 hours, stirring occasionally. Add 1/2 cup water as needed to keep the sauce from sticking. At the end, no water should remain and the fat should separate from the sauce. Taste and adjust the salt.
+6. Toss with cooked, drained pasta, adding the tablespoon of butter. Serve with freshly grated Parmesan.
+
+## Notes
+The source says the recipe makes 2 heaping cups, enough for about 6 servings with 1/2 lb pasta. It recommends marbled beef chuck, preferably from the neck; adding salt when sauteing the meat; cooking the meat in milk before adding wine and tomatoes; avoiding demi-glace or other concentrated flavors; and using a pot that retains heat. Earthenware, enameled cast iron, or a heavy-bottomed layered-steel pot is suggested.
+
+The source recommends homemade Bolognese tagliatelle, baked green lasagna, tortellini, rigatoni, conchiglie, or fusilli. It notes that in Bologna the sauce is not served over spaghetti.
+
+**Unclear source passage:** The original text around the drying-out, fat separation, and water-addition directions is interleaved and damaged. The steps above retain only the clearly recoverable directions; the exact wording and any additional detail cannot be safely reconstructed.
+
+## Make Ahead
+The source says the cooking can be paused and resumed later the same day. Refrigerate finished sauce in a tightly sealed container for up to 3 days, or freeze it. Reheat by simmering for 15 minutes, stirring once or twice, before tossing with pasta.
+
+## Variation: Ragu with Pork
+Replace one part of the beef with one part ground pork (preferably from the neck or Boston butt), keeping the remaining two parts beef. Prepare as for the main recipe.

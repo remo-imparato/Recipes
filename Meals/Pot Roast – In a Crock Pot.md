@@ -1,15 +1,14 @@
 # Pot Roast – In a Crock Pot
 
 ## Ingredients
-
-- 1 Roast
-- 1 Can French Onion Soup
-- 1 Onion (Cubed)
-- 1 Bag Mini-Carrots
-- 4 Potatoes (Cubed)
+- 1 roast
+- 1 can French onion soup
+- 1 onion, cubed
+- 1 bag mini carrots
+- 4 potatoes, cubed
 
 ## Directions
+Add all ingredients to the crock pot and simmer on medium for at least 6 hours.
 
-Add all ingredients to the crock-pot, simmer on medium for a minimum of 6 hours.
-
-**Suggestion:** Serve with fresh rolls and heated gravy.
+## Suggestion
+Serve with fresh rolls and heated gravy.

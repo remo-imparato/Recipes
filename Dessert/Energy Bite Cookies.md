@@ -1,0 +1,15 @@
+# Energy Bite Cookies
+
+## Ingredients
+- 1/2 cup peanut butter
+- 1/3 cup honey
+- 1 tsp vanilla extract
+- 1 cup old-fashioned oats
+- 2/3 cup toasted, sweetened shredded coconut
+- 1/2 cup golden flaxseed
+- 6 Tbsp chocolate chips
+
+## Directions
+1. Mix the honey, peanut butter, and vanilla. Add the remaining ingredients and mix.
+2. Chill in the refrigerator for 30 minutes, until firm.
+3. Form into balls and store in an airtight container in the refrigerator.
