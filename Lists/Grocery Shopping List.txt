@@ -1,145 +1,157 @@
-Lemons
-Apples
-Bananas
-Pears
-Peaches
-Strawberries
-Blueberries
-Red Grapes
-Cantaloupe
-Honeydew
-Kiwi
-Watermelons
+Grocery Shopping List
 
-Beets (with greens)
-Broccoli
-Tomatoes
-Potatoes
-Sweet potato
-Onion
-Green onion
-Corn
-Garlic
-Celery
-Carrots
-Spinach
+Fruit
+	Lemons
+	Apples
+	Bananas
+	Pears
+	Peaches
+	Strawberries
+	Blueberries
+	Red grapes
+	Cantaloupe
+	Honeydew
+	Kiwi
+	Watermelons
 
-Artichokes
-Cauliflower 
-Asparagus
-Jalapeno 
-Cilantro
-Avocado
-Mushrooms
-Green pepper
-Hummus
+Vegetables and Hummus
+	Beets (with greens)
+	Broccoli
+	Tomatoes
+	Potatoes
+	Sweet potato
+	Onion
+	Green onion
+	Corn
+	Garlic
+	Celery
+	Carrots
+	Spinach
+	Artichokes
+	Cauliflower
+	Asparagus
+	Jalapeno
+	Cilantro
+	Avocado
+	Mushrooms
+	Green pepper
+	Hummus
 
-Smoked Turkey Thin dietz & watson
-Salami
-Munster cheese
-American cheese
-Pepperoni
+Deli
+	Smoked turkey (thin; Dietz & Watson)
+	Hard Salami
+	Munster cheese
+	American cheese
+	Pepperoni
 
-Multi vitamin
-Antioxidants (PQQ, CoQ10,  NAC)
-Shampoo
-Conditioner
-Foam hand soap
-Glue
+Personal Care and Other
+	Multivitamin
+	Antioxidants (PQQ, CoQ10, NAC)
+	Shampoo
+	Conditioner
+	Foam hand soap
+	Glue
 
-English Muffins
-Bagel's mini
-Bread
-Nut thins 
-Black Olives
-Bottle Olives
-Buns
-Ketchup
-Mustard
-Italian Dressing
-Mayonnaise
-Capers
-Horseradish
+Bread, Condiments, and Pantry
+	English muffins
+	Mini bagels
+	Bread
+	Nut Thins
+	Black olives
+	Bottle olives
+	Buns
+	Ketchup
+	Mustard
+	Italian dressing
+	Mayonnaise
+	Capers
+	Horseradish
 
-Flour
-Sugar
-Brown Sugar
-Baking Soda
-Baking Powder
-Panko Bread Crumbs
-Pie Crust
-Walnuts 
-Powdered Milk
+Baking
+	Flour
+	Sugar
+	Brown sugar
+	Baking soda
+	Baking powder
+	Panko bread crumbs
+	Pie crust
+	Walnuts
+	Powdered milk
 
-Gorilla munch
-Panda Puffs
-Graham crackers (Honey)
-Apple sauce
-Water Crackers
-(not cracked pepper)
-Mrs. Grass
-Mac & cheese
-Beef broth
-Z bars
+Snacks and Canned Goods
+	Gorilla Munch
+	Panda Puffs
+	Graham crackers (honey)
+	Applesauce
+	Water crackers
+	(Not cracked pepper)
+	Mrs. Grass
+	Mac and cheese
+	Beef broth
+	Z bars
 
-Rice - Risotto
-Rice - Wild
-Rice - Long Grain
-Rice - sushi
-Beans - Northern
-Beans - red
-Noodles - Lasagna
-Vinegar - White Wine
-Tomatoes Can
-Pizza Sauce
-Soy sauce (low sodium)
-Refried beans (black)
-Tortillas
-Chow Mein noodles
-Sriracha
+Grains, Beans, and Sauces
+	Rice - risotto
+	Rice - wild
+	Rice - long grain
+	Rice - sushi
+	Beans - Northern
+	Beans - red
+	Noodles - lasagna
+	Vinegar - white wine
+	Tomatoes, canned
+	Pizza sauce
+	Soy sauce (low sodium)
+	Refried beans (black)
+	Tortillas
+	Chow mein noodles
+	Sriracha
 
-Milk
-Milk boxes
-Coffee Creamer
-1/2 & 1/2
-Heavy Cream
-Eggs
-Butter
-Yogurt
-Sour Cream
-Bacon
-Cream cheese
-Buttermilk
-Kieffer
+Dairy and Eggs
+	Milk
+	Milk boxes
+	Coffee creamer
+	Half-and-half
+	Heavy cream
+	Eggs
+	Butter
+	Yogurt
+	Sour cream
+	Bacon
+	Cream cheese
+	Buttermilk
+	Kieffer
 
-Hot dogs
-Cheese spread
-String Cheese
-Shredded cheese
-Cheddar
-Pickles
-Chips
-Salsa
-Thin Swiss
-Frozen pizza
-Ice Cream
-Frozen Veg.
-Frozen Corn
-Mini Pancakes
+Refrigerated and Frozen
+	Hot dogs
+	Cheese spread
+	String cheese
+	Shredded cheese
+	Cheddar
+	Pickles
+	Chips
+	Salsa
+	Thin Swiss
+	Frozen pizza
+	Ice cream
+	Frozen vegetables
+	Frozen corn
+	Mini pancakes
 
-Cheese Cloth
-Twine
+Household Supplies
+	Cheese cloth
+	Twine
+	Murphy Oil Soap
+	Soft Scrub
+	Scrubbing Bubbles
+	Mr. Clean
+	Windex
+	Method all-purpose cleaner
+	Swiffer sweeper
+	Latex gloves
 
-Murphy Oil Soap
-Soft Scrub
-Scrubbing Bubbles
-Mr. Clean
-Windex
-Method all purpose
-Swiffer sweeper
-Gloves, latex
-
-Wine
-Beer
-Liquor
-La Croix
+Drinks
+	Wine
+	Beer
+	Liquor
+	La Croix
