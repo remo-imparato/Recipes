@@ -1,0 +1,18 @@
+# Rebaked Potatoes
+
+## Ingredients
+- 8 baking potatoes
+- 1/2 cup mayonnaise
+- 1/2 cup cottage cheese or yogurt
+- 1/2 tsp salt
+- 1/2 tsp cayenne
+- 3 Tbsp prepared mustard
+- 1 cup grated cheddar cheese
+- 1 tsp dill
+- Paprika
+
+## Directions
+1. Bake the potatoes at 400 F for about 1 hour. Let cool slightly, then slice in half lengthwise.
+2. Scoop out the insides and rice them through a potato ricer. Stir in all the remaining ingredients except the paprika.
+3. Spoon the mixture back into the potato skins and place them in a shallow baking dish. Sprinkle with paprika.
+4. Bake at 350 F for 30 minutes, or until golden brown.

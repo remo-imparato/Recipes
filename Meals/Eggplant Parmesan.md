@@ -1,0 +1,4 @@
+# Eggplant Parmesan
+
+## Directions
+The source gives only the recipe name, with no ingredients or instructions; there is not enough information to format a recipe safely.
