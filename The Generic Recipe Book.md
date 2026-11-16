@@ -1,6 +1,124 @@
 # The Generic Recipe Book
 
-## APPS
+*A home collection of recipes, notes, and favorites.*
+
+## Contents
+
+- [Appetizers](#appetizers)
+  - [Crab Cake](#crab-cake)
+  - [Crab Cakes (Deb)](#crab-cakes-deb)
+  - [Crab Loaf](#crab-loaf)
+  - [Lentil Tortellini Salad](#lentil-tortellini-salad)
+  - [Spicy Tuna Shooters](#spicy-tuna-shooters)
+  - [Stuffed Eggs](#stuffed-eggs)
+  - [Three Bean Salad](#three-bean-salad)
+
+- [Desserts](#desserts)
+  - [Apple Crisp](#apple-crisp)
+  - [Apple Pie (Deb)](#apple-pie-deb)
+  - [Apple Tarte Tatin](#apple-tarte-tatin)
+  - [Brownies](#brownies)
+  - [Carrot Cake](#carrot-cake)
+  - [Chocolate Butter Icing](#chocolate-butter-icing)
+  - [Chocolate Chip and Orange Muffins](#chocolate-chip-and-orange-muffins)
+  - [Chocolate Chip Cookies (Deb)](#chocolate-chip-cookies-deb)
+  - [Chocolate Chip Cookies](#chocolate-chip-cookies)
+  - [Energy Bite Cookies](#energy-bite-cookies)
+  - [Jo's Chocolate Filling for Cake](#jos-chocolate-filling-for-cake)
+  - [Peach Pie (Deb)](#peach-pie-deb)
+  - [Peaches with Panna Cotta](#peaches-with-panna-cotta)
+  - [Pumpkin Bread](#pumpkin-bread)
+  - [Pumpkin Pie (Deb)](#pumpkin-pie-deb)
+  - [Pumpkin Pie](#pumpkin-pie)
+  - [Struffoli](#struffoli)
+  - [Sugar Cookies](#sugar-cookies)
+  - [The Clark Cake](#the-clark-cake)
+  - [Zucchini Bread](#zucchini-bread)
+
+- [Drinks](#drinks)
+  - [Blackberry-Lime Porch Punch](#blackberry-lime-porch-punch)
+  - [Caramel Macchiato](#caramel-macchiato)
+  - [Cherry Limeade](#cherry-limeade)
+  - [Classic Sweet Tea](#classic-sweet-tea)
+  - [Coffee - French Press Cold Brew](#coffee---french-press-cold-brew)
+  - [Coffee - Instant - Whipped COffee](#coffee---instant---whipped-coffee)
+  - [Frozen Caramel Coffee Slushies](#frozen-caramel-coffee-slushies)
+  - [Frozen Strawberry Lemonade](#frozen-strawberry-lemonade)
+  - [Lemonade Iced Tea](#lemonade-iced-tea)
+  - [Lemon-Mint Sparklers](#lemon-mint-sparklers)
+  - [Minty Lemonade Iced Tea](#minty-lemonade-iced-tea)
+  - [Mocha Coffee With Mint](#mocha-coffee-with-mint)
+  - [Party Punch](#party-punch)
+  - [Rosemary Ginger Mule](#rosemary-ginger-mule)
+  - [Shirley Temple](#shirley-temple)
+  - [Sparkling Cherry Limeade Recipe](#sparkling-cherry-limeade-recipe)
+  - [Strawberry Lemonade](#strawberry-lemonade)
+  - [Strawberry Spritzers](#strawberry-spritzers)
+  - [Tennessee Fruit Tea](#tennessee-fruit-tea)
+  - [Watermelon-Basil Sweet Tea](#watermelon-basil-sweet-tea)
+
+- [Meals](#meals)
+  - [Baked Corned Beef](#baked-corned-beef)
+  - [Black Bean Soup](#black-bean-soup)
+  - [Bolognese Meat Sauce AI](#bolognese-meat-sauce-ai)
+  - [Bolognese Meat Sauce](#bolognese-meat-sauce)
+  - [Boston Baked Beans](#boston-baked-beans)
+  - [Broccoli-Rice Casserole](#broccoli-rice-casserole)
+  - [Carne Asada](#carne-asada)
+  - [Cheesy Potatoes](#cheesy-potatoes)
+  - [Chicken Fajitas](#chicken-fajitas)
+  - [Chili](#chili)
+  - [Cream of Broccoli Soup](#cream-of-broccoli-soup)
+  - [Deb's Beets](#debs-beets)
+  - [Easy Lasagna](#easy-lasagna)
+  - [Eggplant Parmesan](#eggplant-parmesan)
+  - [Ethiopian Chicken Stew](#ethiopian-chicken-stew)
+  - [Fettuccine Alfredo](#fettuccine-alfredo)
+  - [Herbed Green Beans](#herbed-green-beans)
+  - [Honey’s Macaroni](#honeys-macaroni)
+  - [Kung Pao (Princess Chicken)](#kung-pao-princess-chicken)
+  - [Lentil Soup](#lentil-soup)
+  - [Matzo Ball Soup](#matzo-ball-soup)
+  - [My Mushroom Soup](#my-mushroom-soup)
+  - [Pasta with Tuna and Spinach](#pasta-with-tuna-and-spinach)
+  - [Pot Roast – In a Crock Pot](#pot-roast--in-a-crock-pot)
+  - [Pot Roast (Deb)](#pot-roast-deb)
+  - [Rebaked Potatoes](#rebaked-potatoes)
+  - [Red Potato Salad](#red-potato-salad)
+  - [Refried Black Beans](#refried-black-beans)
+  - [Risotto (Deb)](#risotto-deb)
+  - [Roast Chicken (Deb)](#roast-chicken-deb)
+  - [Scalloped Potatoes](#scalloped-potatoes)
+  - [Smoked Brisket](#smoked-brisket)
+  - [Steamed Artichokes](#steamed-artichokes)
+  - [Tuna Casserole (hot)](#tuna-casserole-hot)
+  - [Tuna Pasta (cold)](#tuna-pasta-cold)
+  - [Wild Rice Stuffing](#wild-rice-stuffing)
+
+- [Sauces](#sauces)
+  - [BBQ Sauce](#bbq-sauce)
+  - [Chili Powder](#chili-powder)
+  - [Cranberry Sauce](#cranberry-sauce)
+  - [Easy Hollandaise Sauce (from Jo)](#easy-hollandaise-sauce-from-jo)
+  - [Emerils Essence Powder](#emerils-essence-powder)
+  - [Gravy](#gravy)
+  - [Horseradish](#horseradish)
+  - [Italian Dressing](#italian-dressing)
+  - [Ketchup](#ketchup)
+  - [Mayo](#mayo)
+  - [Mushroom Sauce](#mushroom-sauce)
+  - [Pesto (Deb)](#pesto-deb)
+  - [Ranch Dressing](#ranch-dressing)
+  - [Remos Rub Powder](#remos-rub-powder)
+  - [Sausage Seasoning Powder](#sausage-seasoning-powder)
+  - [Sweet Curry Powder](#sweet-curry-powder)
+  - [Taco Seasoning Powder](#taco-seasoning-powder)
+  - [Thousand Island Dressing](#thousand-island-dressing)
+  - [Tomato Sauce for Pasta (Quick and Easy)](#tomato-sauce-for-pasta-quick-and-easy)
+
+---
+
+## Appetizers
 
 ### Crab Cake
 
@@ -17,9 +135,11 @@
 1. Combine the crab, mayonnaise, egg white, and Old Bay gently, taking care not to break up the lumps.
 2. Form into cakes and fry or bake.
 
-#### Note
+#### Recipe-box note
+> No breadcrumbs or flour: adding either would make this a crab loaf, according to the source.
+>
 
-No breadcrumbs or flour: adding either would make this a crab loaf, according to the source.
+---
 
 ### Crab Cakes (Deb)
 
@@ -41,6 +161,8 @@ No breadcrumbs or flour: adding either would make this a crab loaf, according to
 3. Heat the oil. Form crab cakes with an ice-cream scoop and fry until golden brown on one side, then turn and fry the other side.
 4. Drain on paper towels.
 
+---
+
 ### Crab Loaf
 
 #### Ingredients
@@ -61,6 +183,8 @@ No breadcrumbs or flour: adding either would make this a crab loaf, according to
 3. Heat the oil. Form cakes with an ice-cream scoop and fry until golden brown on one side, then turn.
 4. Drain on paper towels.
 
+---
+
 ### Lentil Tortellini Salad
 
 #### Ingredients
@@ -76,6 +200,8 @@ No breadcrumbs or flour: adding either would make this a crab loaf, according to
 #### Directions
 
 The source lists ingredients but gives no preparation directions or quantities for the tortellini, tomatoes, oil, vinegar, oregano, or garlic.
+
+---
 
 ### Spicy Tuna Shooters
 
@@ -120,9 +246,11 @@ Ingredients
 - Avocado: Layer the tuna mixture over mashed avocado and sprinkle with crushed wasabi peas.
 - Yuzu citrus: Replace the rice vinegar with yuzu juice and garnish with shiso leaves.
 
-#### Note
+#### Recipe-box note
+> The original notes also list chives and sweet vinegar without quantities or directions; their intended use is unclear.
+>
 
-The original notes also list chives and sweet vinegar without quantities or directions; their intended use is unclear.
+---
 
 ### Stuffed Eggs
 
@@ -144,6 +272,8 @@ The original notes also list chives and sweet vinegar without quantities or dire
 
 The source does not include preparation directions.
 
+---
+
 ### Three Bean Salad
 
 #### Ingredients
@@ -160,7 +290,9 @@ The source does not include preparation directions.
 
 The source lists ingredients but gives no preparation directions.
 
-## DESSERT
+---
+
+## Desserts
 
 ### Apple Crisp
 
@@ -182,6 +314,8 @@ The source lists ingredients but gives no preparation directions.
 3. Mix the flour, brown sugar, and butter; spread the mixture over the apples. Add the pecans to the topping if desired.
 4. Bake at 350 F for 30 minutes. Serve with hard sauce.
 
+---
+
 ### Apple Pie (Deb)
 
 #### Ingredients
@@ -201,9 +335,11 @@ The source lists ingredients but gives no preparation directions.
 2. Mix butter, nuts, sugar, and flour and crumble over the top.
 3. Bake at 450 F for 10 minutes, then at 350 F for 35 minutes. The source gives an alternative: bake at 400 F for 30 minutes.
 
-#### Note
+#### Recipe-box note
+> The amounts of cinnamon, butter, nuts, flour, and brown sugar are not specified clearly in the source.
+>
 
-The amounts of cinnamon, butter, nuts, flour, and brown sugar are not specified clearly in the source.
+---
 
 ### Apple Tarte Tatin
 
@@ -222,6 +358,8 @@ The amounts of cinnamon, butter, nuts, flour, and brown sugar are not specified 
 3. Cut each apple half into 4 wedges. Arrange the wedges in concentric circles in the pan, cut sides facing down.
 4. Put the pie-crust dough on top, tucking in the edges. Bake for 50 minutes.
 
+---
+
 ### Brownies
 
 #### Ingredients
@@ -239,6 +377,8 @@ The amounts of cinnamon, butter, nuts, flour, and brown sugar are not specified 
 2. Mix the eggs and sugar well, then stir in the flour.
 3. Stir in the chocolate-butter mixture.
 4. Bake at 350 F for 30 minutes.
+
+---
 
 ### Carrot Cake
 
@@ -264,6 +404,8 @@ The amounts of cinnamon, butter, nuts, flour, and brown sugar are not specified 
 3. Pour into greased and floured pans: three cake pans or one 9-by-11-inch baking dish.
 4. Bake at 350 F for 1 hour.
 
+---
+
 ### Chocolate Butter Icing
 
 #### Ingredients
@@ -280,6 +422,7 @@ The amounts of cinnamon, butter, nuts, flour, and brown sugar are not specified 
 1. Melt the chocolate and butter. Remove from the heat.
 2. Add the milk and salt. Gradually add the powdered sugar and vanilla.
 
+---
 
 ### Chocolate Chip and Orange Muffins
 
@@ -302,9 +445,11 @@ The amounts of cinnamon, butter, nuts, flour, and brown sugar are not specified 
 4. Stir in the chocolate and divide the batter among the muffin cups.
 5. Bake for about 20 minutes, until a tester comes out clean.
 
-#### Note
+#### Recipe-box note
+> The source gives chocolate as both 12 oz and 1 1/2 cups; both are retained.
+>
 
-The source gives chocolate as both 12 oz and 1 1/2 cups; both are retained.
+---
 
 ### Chocolate Chip Cookies (Deb)
 
@@ -325,6 +470,8 @@ The source gives chocolate as both 12 oz and 1 1/2 cups; both are retained.
 1. Whip the butter. Add the sugars, then the eggs one at a time.
 2. Add the vanilla and dissolved baking soda. Mix in the flour, chocolate chips, and walnuts.
 3. Drop spoonfuls of dough onto a cookie sheet. Bake at 350 F for 12 minutes.
+
+---
 
 ### Chocolate Chip Cookies
 
@@ -348,6 +495,8 @@ The source gives chocolate as both 12 oz and 1 1/2 cups; both are retained.
 3. Mix in the flour and salt, then stir in the chocolate chips.
 4. Bake at 350 F for 10-12 minutes.
 
+---
+
 ### Energy Bite Cookies
 
 #### Ingredients
@@ -365,6 +514,8 @@ The source gives chocolate as both 12 oz and 1 1/2 cups; both are retained.
 1. Mix the honey, peanut butter, and vanilla. Add the remaining ingredients and mix.
 2. Chill in the refrigerator for 30 minutes, until firm.
 3. Form into balls and store in an airtight container in the refrigerator.
+
+---
 
 ### Jo's Chocolate Filling for Cake
 
@@ -387,6 +538,8 @@ The source gives chocolate as both 12 oz and 1 1/2 cups; both are retained.
 - It lists both 2 tsp butter and 4 heaping tsp butter; it is unclear whether these are separate amounts or a correction, so both are recorded.
 - Intended for the Clark family's traditional birthday cake made with yellow cake; no yellow-cake recipe is provided.
 
+---
+
 ### Peach Pie (Deb)
 
 #### Ingredients
@@ -401,9 +554,11 @@ The source gives chocolate as both 12 oz and 1 1/2 cups; both are retained.
 1. Slice the peaches and arrange them in the pie crust.
 2. Bake for 15 minutes at 400 F, then lower the oven to 300 F and bake for 50 minutes.
 
-#### Note
+#### Recipe-box note
+> The source does not give the peach quantity or specify whether the crust is unbaked.
+>
 
-The source does not give the peach quantity or specify whether the crust is unbaked.
+---
 
 ### Peaches with Panna Cotta
 
@@ -430,9 +585,11 @@ Peaches
 3. Whisk together the 1/4 cup honey, yogurt, and vanilla. The source says to add this mixture to the peaches.
 4. Pour into bowls and chill for 8 hours.
 
-#### Note
+#### Recipe-box note
+> The source does not clearly say when to combine the gelatin-cream mixture with the peach-yogurt mixture; no additional steps are inferred.
+>
 
-The source does not clearly say when to combine the gelatin-cream mixture with the peach-yogurt mixture; no additional steps are inferred.
+---
 
 ### Pumpkin Bread
 
@@ -456,9 +613,11 @@ The source does not clearly say when to combine the gelatin-cream mixture with t
 2. Sift together the flour, baking powder, cloves, baking soda, and cinnamon. Add to the wet mixture alternately with the water.
 3. Stir in the nuts. Bake in a loaf pan for 30 minutes.
 
-#### Note
+#### Recipe-box note
+> The source does not specify the oven temperature or loaf-pan size.
+>
 
-The source does not specify the oven temperature or loaf-pan size.
+---
 
 ### Pumpkin Pie (Deb)
 
@@ -479,6 +638,8 @@ The source does not specify the oven temperature or loaf-pan size.
 
 1. The source does not give mixing or filling instructions. It says to buy a pie crust or consult Grandma Google.
 2. Bake for 15 minutes at 425 F, then 45 minutes at 350 F.
+
+---
 
 ### Pumpkin Pie
 
@@ -536,6 +697,8 @@ The source does not specify the oven temperature or loaf-pan size.
 2. Divide the filling among the tins. Bake on the same half-sheet pan until the center jiggles slightly but the sides are set, about 25 minutes. Cool on a rack for 2 hours.
 3. Spread 1 tsp brown sugar on each pie. Melt the sugar with a blowtorch to form a crisp top. Cool for 5 minutes before serving.
 
+---
+
 ### Struffoli
 
 #### Ingredients
@@ -554,9 +717,11 @@ The source does not specify the oven temperature or loaf-pan size.
 3. Working in batches, drop the pieces separately into hot oil so they do not touch. Fry for about 3 minutes, until golden, then drain on paper towels.
 4. Heat 3/4 cup honey until it melts slightly. Add the fried pieces and stir with a wooden spoon for 2-3 minutes, until coated.
 
-#### Note
+#### Recipe-box note
+> The source lists both 1 cup honey in the ingredient list and 3/4 cup for coating; the directions specify 3/4 cup.
+>
 
-The source lists both 1 cup honey in the ingredient list and 3/4 cup for coating; the directions specify 3/4 cup.
+---
 
 ### Sugar Cookies
 
@@ -574,6 +739,8 @@ The source lists both 1 cup honey in the ingredient list and 3/4 cup for coating
 1. Cream the butter and sugar together. Add the egg and vanilla.
 2. Add the flour and baking powder. Work with half of the dough and refrigerate the rest.
 3. Roll the dough out thinly and bake at 425 F for 10 minutes.
+
+---
 
 ### The Clark Cake
 
@@ -625,6 +792,8 @@ The source lists both 1 cup honey in the ingredient list and 3/4 cup for coating
 2. Remove from the heat. Using electric beaters, slowly add the milk and salt.
 3. Add the sugar until the frosting stands in thick peaks.
 
+---
+
 ### Zucchini Bread
 
 #### Ingredients
@@ -647,7 +816,9 @@ The source lists both 1 cup honey in the ingredient list and 3/4 cup for coating
 1. Mix the ingredients together.
 2. Bake in a greased loaf pan at 350 F for 45-60 minutes.
 
-## DRINKS
+---
+
+## Drinks
 
 ### Blackberry-Lime Porch Punch
 
@@ -681,7 +852,10 @@ Give this punch a kick with a little bourbon, or serve it as is; it is wonderful
 
 Blackberry juice can be made one day ahead and stored in an airtight container in the refrigerator. To prepare the punch ahead, mix in the sweet tea, water, and lime juice on the morning of the party. Add the ginger beer and frozen blackberries just before serving.
 
+---
+
 ### Caramel Macchiato
+*Yield: 1 serving (8 oz)*
 
 #### Ingredients
 
@@ -694,11 +868,6 @@ Blackberry juice can be made one day ahead and stored in an airtight container i
 1. Add 1 Tbsp caramel sauce to the bottom of a mug that holds at least 8 oz.
 2. Pour the espresso over the caramel, then add the hot milk. Spoon the remaining milk foam on top.
 3. Drizzle the remaining 1 Tbsp caramel over the foam and serve promptly.
-
-#### Yield
-
-1 serving (8 oz)
-
 #### Notes and Tips
 
 A dedicated milk frother works best, though other methods can foam milk. Skim and whole milk are noted as best for producing plenty of bubbles; whole milk gives a richer, creamier drink. The source recommends fresh caramel sauce for the best flavor.
@@ -733,6 +902,8 @@ A dedicated milk frother works best, though other methods can foam milk. Skim an
 - To fix crystallized caramel, add 1/4 cup water and bring it back to a boil to dissolve the crystals, then continue cooking.
 - Use a heavy-bottomed pan for even heat. Do not stir or move the pan after wetting the sugar until the cream is added. Once the cream is added, the fat helps prevent crystallization.
 
+---
+
 ### Cherry Limeade
 
 Cherry limeade is lemonade's sweetest competition, and a drink the whole family can enjoy.
@@ -756,6 +927,8 @@ Cherry limeade is lemonade's sweetest competition, and a drink the whole family 
 - Active time: 5 minutes
 - Total time: 5 minutes
 - Serves: 10
+
+---
 
 ### Classic Sweet Tea
 
@@ -782,6 +955,8 @@ This sweet tea has a strong flavor without bitterness and is sweet but not cloyi
 - Hands-on time: 5 minutes
 - Total time: 50 minutes
 - Yield: 2 qt
+
+---
 
 ### Coffee - French Press Cold Brew
 
@@ -815,7 +990,10 @@ Cold brew has a mellow flavor and concentrated caffeine. It requires at least 12
 
 The source compares caffeine in a 16 oz Starbucks cold brew (205 mg) with an iced coffee of the same size (165 mg).
 
+---
+
 ### Coffee - Instant - Whipped COffee
+*Yield: Serves 2.*
 
 #### Ingredients
 
@@ -830,11 +1008,10 @@ The source compares caffeine in a 16 oz Starbucks cold brew (205 mg) with an ice
 2. Whisk vigorously in a zigzag motion for 2-3 minutes, until the mixture resembles whipped cream.
 3. For a cold drink, add ice to a serving glass; for a hot drink, use hot milk. Add the milk and spoon the whipped mixture on top. Swirl into the milk and serve.
 
-#### Yield
-
-Serves 2.
+---
 
 ### Frozen Caramel Coffee Slushies
+*Yield: 2 servings.*
 
 #### Ingredients
 
@@ -850,9 +1027,7 @@ Serves 2.
 
 The source does not include preparation directions.
 
-#### Yield
-
-2 servings.
+---
 
 ### Frozen Strawberry Lemonade
 
@@ -882,6 +1057,8 @@ This fruity, refreshing drink is perfect for a pool party.
 - Total time: 20 minutes
 - Serves: 2
 
+---
+
 ### Lemonade Iced Tea
 
 Why have one drink when you can have two?
@@ -904,6 +1081,8 @@ Why have one drink when you can have two?
 - Active time: 15 minutes
 - Total time: 25 minutes
 - Serves: 4
+
+---
 
 ### Lemon-Mint Sparklers
 
@@ -945,6 +1124,8 @@ Prepare the syrup as directed, then omit the lemon juice and reduce the syrup to
 
 Hands-on time: 30 minutes; total time: 1 hour 30 minutes.
 
+---
+
 ### Minty Lemonade Iced Tea
 
 A fresh twist on minty sweet iced tea.
@@ -974,6 +1155,8 @@ A fresh twist on minty sweet iced tea.
 
 Prep: 10 minutes; cook: 5 minutes; steep: 10 minutes; total: 25 minutes. Yield: 8 cups.
 
+---
+
 ### Mocha Coffee With Mint
 
 #### Ingredients
@@ -989,6 +1172,8 @@ Prep: 10 minutes; cook: 5 minutes; steep: 10 minutes; total: 25 minutes. Yield: 
 1. While the coffee brews, whip the cream to soft peaks and fold in 1 tsp mint syrup.
 2. When the coffee is ready, mix in 2 tsp chocolate syrup and 1 tsp mint syrup.
 3. Top the coffee with the mint whipped cream and a sprig of mint. Serve.
+
+---
 
 ### Party Punch
 
@@ -1014,6 +1199,8 @@ Every Southern host knows it's not a party without party punch.
 - Active time: 5 minutes
 - Total time: 5 minutes, plus chilling if needed
 - Serves: 12
+
+---
 
 ### Rosemary Ginger Mule
 
@@ -1053,6 +1240,8 @@ Makes 1 1/2 cups. Store in an airtight glass jar in the refrigerator for up to 3
 - Total time: 40 minutes
 - Serves: 1
 
+---
+
 ### Shirley Temple
 
 Nostalgic and sweet, a Shirley Temple is fun for kids of all ages.
@@ -1080,6 +1269,8 @@ Add 1/4 cup (2 oz) chilled vodka with the grenadine, lime juice, and soda in ste
 - Total time: 5 minutes
 - Serves: 1
 
+---
+
 ### Sparkling Cherry Limeade Recipe
 
 Add tequila and a splash of orange liqueur for a margarita-inspired sparkling cocktail.
@@ -1100,13 +1291,13 @@ Add tequila and a splash of orange liqueur for a margarita-inspired sparkling co
 2. Stir together the limeade concentrate and cold water; add the maraschino cherry liquid.
 3. Fill the prepared glasses with ice. Pour in the limeade mixture, filling each glass two-thirds full, then top with sparkling water.
 
-#### Note
-
-The source tested this recipe with San Pellegrino Sparkling Natural Mineral Water.
-
+#### Recipe-box note
+> The source tested this recipe with San Pellegrino Sparkling Natural Mineral Water.
 #### Timing and Yield
 
 Hands-on time: 10 minutes; total time: 10 minutes. Yield: 8 cups.
+
+---
 
 ### Strawberry Lemonade
 
@@ -1130,6 +1321,8 @@ A spectacularly refreshing strawberry lemonade.
 - Active time: 25 minutes
 - Total time: 35 minutes
 - Serves: 4
+
+---
 
 ### Strawberry Spritzers
 
@@ -1164,7 +1357,10 @@ Active time for shrub: 10 minutes; total time: 2 days, 10 minutes.
 
 Active time: 5 minutes; total time: 5 minutes. Serves: 1.
 
+---
+
 ### Tennessee Fruit Tea
+*Yield: Serves 16.*
 
 Fruit tea combines the best of sweet tea and sweet juice.
 
@@ -1179,9 +1375,7 @@ Fruit tea combines the best of sweet tea and sweet juice.
 2. Pour the remaining pineapple-orange juice into the bottle of sweet tea and shake to combine.
 3. Serve the pitcher immediately or pour the mixture back into the juice carton for storage.
 
-#### Yield
-
-Serves 16.
+---
 
 ### Watermelon-Basil Sweet Tea
 
@@ -1210,11 +1404,13 @@ Homemade watermelon syrup gives this sweet tea a summery freshness.
 - Total time: 1 hour 40 minutes
 - Serves: 4
 
-#### Note
+#### Recipe-box note
+> The source refers to Watermelon Simple Syrup but does not include its recipe here.
+>
 
-The source refers to Watermelon Simple Syrup but does not include its recipe here.
+---
 
-## MEALS
+## Meals
 
 ### Baked Corned Beef
 
@@ -1240,6 +1436,8 @@ The source refers to Watermelon Simple Syrup but does not include its recipe her
 
 Place the meat 6-8 inches above charcoal that has burned until covered with gray ash. Grill, turning and basting occasionally, for 30-40 minutes.
 
+---
+
 ### Black Bean Soup
 
 #### Ingredients
@@ -1261,9 +1459,11 @@ Place the meat 6-8 inches above charcoal that has burned until covered with gray
 2. The source says to puree the onion, pepper, and garlic, then add water and the ham hock, if using. It does not specify when to puree or add these to the beans, nor does it give complete cooking directions for the canned-bean option.
 3. Add the vinegar during the last 15 minutes of cooking.
 
-#### Note
+#### Recipe-box note
+> The source calls for a green pepper in the ingredient list but a red pepper in the directions; this discrepancy is retained.
+>
 
-The source calls for a green pepper in the ingredient list but a red pepper in the directions; this discrepancy is retained.
+---
 
 ### Bolognese Meat Sauce AI
 
@@ -1297,6 +1497,8 @@ The source calls for a green pepper in the ingredient list but a red pepper in t
 #### Serving
 
 Serve with fresh tagliatelle or pappardelle, or use as the base for lasagne alla Bolognese. Top with freshly grated Parmigiano-Reggiano.
+
+---
 
 ### Bolognese Meat Sauce
 
@@ -1359,6 +1561,8 @@ The source says the cooking can be paused and resumed later the same day. Refrig
 
 Replace one part of the beef with one part ground pork (preferably from the neck or Boston butt), keeping the remaining two parts beef. Prepare as for the main recipe.
 
+---
+
 ### Boston Baked Beans
 
 #### Ingredients
@@ -1381,6 +1585,8 @@ Replace one part of the beef with one part ground pork (preferably from the neck
 4. Mix the sugar, molasses, mustard, salt, and pepper. Pour over the beans and add water to cover. Do not stir.
 5. Cover and bake at 300 F for 6 hours. After 2-3 hours, check whether more water is needed; add enough to keep the beans moist. The amount depends on how dry you like them.
 
+---
+
 ### Broccoli-Rice Casserole
 
 #### Ingredients
@@ -1400,6 +1606,8 @@ Replace one part of the beef with one part ground pork (preferably from the neck
 3. Saute the onion and garlic in a pan with the butter.
 4. Mix all the ingredients in a bowl and place the mixture in a casserole dish.
 5. Bake uncovered at 350 F for 35 minutes.
+
+---
 
 ### Carne Asada
 
@@ -1426,6 +1634,8 @@ A Mexican-style marinated, grilled beef served in tortillas. Prep time: 30 minut
 3. Remove the meat from the marinade, reserving the marinade. Grill the steak and tortillas, turning each once. Brush the steak with the reserved marinade. Cook to your liking; the source gives 12-15 minutes for medium-rare.
 4. Cut the steak into thin slices against the grain. Serve a few slices in each tortilla with salsa and guacamole.
 
+---
+
 ### Cheesy Potatoes
 
 #### Ingredients
@@ -1442,6 +1652,8 @@ A Mexican-style marinated, grilled beef served in tortillas. Prep time: 30 minut
 1. Saute the onion in a pan with the butter.
 2. Mix all the ingredients in a bowl and place in a casserole dish.
 3. Bake at 350 F for 45 minutes.
+
+---
 
 ### Chicken Fajitas
 
@@ -1466,6 +1678,8 @@ A Mexican-style marinated, grilled beef served in tortillas. Prep time: 30 minut
 3. Heat tortillas in an iron skillet for about 1 minute per side and keep warm.
 4. At the table, spoon the mixture into tortillas. Add salsa, fresh cilantro, and tomato, then roll up. Serve with refried beans and guacamole.
 
+---
+
 ### Chili
 
 #### Ingredients
@@ -1486,6 +1700,8 @@ A Mexican-style marinated, grilled beef served in tortillas. Prep time: 30 minut
 
 1. Brown the ground beef, sausage, onion, green pepper, and garlic; drain the grease.
 2. Combine all the ingredients in a large saucepan. Simmer for 1 hour, stirring occasionally.
+
+---
 
 ### Cream of Broccoli Soup
 
@@ -1509,6 +1725,8 @@ A Mexican-style marinated, grilled beef served in tortillas. Prep time: 30 minut
 
 The source lists ingredients but gives no preparation directions.
 
+---
+
 ### Deb's Beets
 
 #### Ingredients
@@ -1525,6 +1743,8 @@ The source lists ingredients but gives no preparation directions.
 3. Wash and chop the greens, rinsing again to remove sandy soil. Heat olive oil in a lidded, preferably heavy-bottomed saucepan. Saute garlic for about 1 minute.
 4. Add the greens and a little salt. Cover and steam for up to 10 minutes.
 5. Mix the beets and greens together or serve them separately.
+
+---
 
 ### Easy Lasagna
 
@@ -1553,11 +1773,15 @@ The source lists ingredients but gives no preparation directions.
 6. Layer the ingredients in a casserole dish: a thin layer of sauce, noodles, sauce, ricotta mixture, and mozzarella. Repeat until the pan is full.
 7. Bake at 350 F for 40-50 minutes. Let stand for 15 minutes before cutting or serving.
 
+---
+
 ### Eggplant Parmesan
 
 #### Directions
 
 The source gives only the recipe name, with no ingredients or instructions; there is not enough information to format a recipe safely.
+
+---
 
 ### Ethiopian Chicken Stew
 
@@ -1584,6 +1808,8 @@ The source gives only the recipe name, with no ingredients or instructions; ther
 5. Combine the flour with the remaining 2 Tbsp lemon juice and 2 Tbsp water. Bring the cooking liquid back to a boil and add the flour mixture. Cook for 3-4 minutes, until thickened.
 6. Return the chicken to the sauce and let it sit for 2-3 minutes. Serve the chicken and sauce over rice.
 
+---
+
 ### Fettuccine Alfredo
 
 #### Ingredients
@@ -1606,9 +1832,11 @@ The source gives only the recipe name, with no ingredients or instructions; ther
 2. Melt the butter until it stops bubbling. Add the flour to make a blonde roux.
 3. Add the seasonings and liquids and bring to a low simmer. Mix in the cheese in batches.
 
-#### Note
+#### Recipe-box note
+> The source does not give quantities for the salt, white pepper, or nutmeg, nor additional instructions for combining the sauce with the cooked pasta.
+>
 
-The source does not give quantities for the salt, white pepper, or nutmeg, nor additional instructions for combining the sauce with the cooked pasta.
+---
 
 ### Herbed Green Beans
 
@@ -1633,6 +1861,8 @@ The source does not give quantities for the salt, white pepper, or nutmeg, nor a
 4. Add the parsley, rosemary, basil, and salt. Cover and simmer for 10 minutes.
 5. Before serving, toss the green beans with the herb-flavored butter and warm them through.
 
+---
+
 ### Honey’s Macaroni
 
 #### Ingredients
@@ -1649,6 +1879,8 @@ The source does not give quantities for the salt, white pepper, or nutmeg, nor a
 1. Boil the pasta, rinse, and combine it with all the ingredients except the potato chips, along with salt and pepper.
 2. Place the mixture in an uncovered casserole dish. Bake at 350 F for 35 minutes.
 3. Remove the casserole and cover the top with crushed potato chips. Continue baking for 10-15 minutes.
+
+---
 
 ### Kung Pao (Princess Chicken)
 
@@ -1676,6 +1908,8 @@ The source does not give quantities for the salt, white pepper, or nutmeg, nor a
 4. Heat the remaining oil over medium heat. Stir-fry the peppers until dark brown. Add the ginger and chicken and stir-fry for 1 minute.
 5. Add the sauce and cook, stirring, until it thickens slightly. Stir in the peanuts.
 
+---
+
 ### Lentil Soup
 
 #### Ingredients
@@ -1692,6 +1926,8 @@ The source does not give quantities for the salt, white pepper, or nutmeg, nor a
 #### Directions
 
 The source specifies cooking the lentils for 25 minutes in 7 cups of water but gives no directions for preparing the remaining ingredients or finishing the soup.
+
+---
 
 ### Matzo Ball Soup
 
@@ -1739,9 +1975,11 @@ The source specifies cooking the lentils for 25 minutes in 7 cups of water but g
 
 Taste the soup and add salt if needed. Serve with one or two matzo balls, some vegetables, chicken on the side, and a sprinkling of dill. To remove some of the fat, refrigerate the soup overnight so the fat solidifies, then remove the solid fat; the source author prefers to leave it in.
 
-#### Note
+#### Recipe-box note
+> The source says the soup and matzo balls can be frozen. To freeze uncooked matzo balls, roll them, freeze on parchment paper, and transfer to a zip-top bag. The source says to cook them as usual when ready to use.
+>
 
-The source says the soup and matzo balls can be frozen. To freeze uncooked matzo balls, roll them, freeze on parchment paper, and transfer to a zip-top bag. The source says to cook them as usual when ready to use.
+---
 
 ### My Mushroom Soup
 
@@ -1761,6 +1999,8 @@ The source says the soup and matzo balls can be frozen. To freeze uncooked matzo
 
 The source lists ingredients but gives no preparation directions.
 
+---
+
 ### Pasta with Tuna and Spinach
 
 #### Ingredients
@@ -1779,6 +2019,8 @@ The source lists ingredients but gives no preparation directions.
 2. Add the spinach and cook. Add the tomatoes and tuna and simmer briefly.
 3. Add oregano and serve over linguine.
 
+---
+
 ### Pot Roast – In a Crock Pot
 
 #### Ingredients
@@ -1796,6 +2038,8 @@ Add all ingredients to the crock pot and simmer on medium for at least 6 hours.
 #### Suggestion
 
 Serve with fresh rolls and heated gravy.
+
+---
 
 ### Pot Roast (Deb)
 
@@ -1818,6 +2062,8 @@ Serve with fresh rolls and heated gravy.
 2. When the meat is halfway browned, add the vegetables and stock.
 3. Cover and cook for 3-4 hours at 325 F, either in the oven or by simmering on the stove. Add more liquid if necessary.
 
+---
+
 ### Rebaked Potatoes
 
 #### Ingredients
@@ -1839,6 +2085,8 @@ Serve with fresh rolls and heated gravy.
 3. Spoon the mixture back into the potato skins and place them in a shallow baking dish. Sprinkle with paprika.
 4. Bake at 350 F for 30 minutes, or until golden brown.
 
+---
+
 ### Red Potato Salad
 
 #### Ingredients
@@ -1855,6 +2103,8 @@ Serve with fresh rolls and heated gravy.
 1. Scrub the potatoes and boil them in their skins until tender. Leave the skins on or remove them after cooking. Cool, then quarter the potatoes and put them in a bowl.
 2. Add enough balsamic vinegar to soak into the potatoes without using too much. Let it soak in.
 3. Add the onion, bell pepper, mayonnaise, and salt; mix.
+
+---
 
 ### Refried Black Beans
 
@@ -1880,6 +2130,8 @@ Serve with fresh rolls and heated gravy.
 3. Add the black beans, spices, vinegar, salsa verde, and Chilula. The source does not specify whether to mash the beans.
 4. Serve in tortillas, if desired.
 
+---
+
 ### Risotto (Deb)
 
 #### Ingredients
@@ -1901,6 +2153,7 @@ Serve with fresh rolls and heated gravy.
 3. Add the hot broth a little at a time, stirring constantly and allowing it to be absorbed before adding more. More broth may be needed.
 4. Combine with the mushroom mixture and cheese.
 
+---
 
 ### Roast Chicken (Deb)
 
@@ -1931,9 +2184,11 @@ Serve with fresh rolls and heated gravy.
 6. Transfer to a warm platter and rest about 10 minutes without covering with foil.
 7. To make gravy, skim excess oil from the roasting pan, leaving about 1 Tbsp if desired. Stir in wine and water or chicken broth, bring to a boil over high heat while scraping up browned bits, then cook 4-5 minutes, stirring. Strain into a warm bowl and serve with the chicken.
 
-#### Note
+#### Recipe-box note
+> The source lists both 1 cup water and 1 cup water or broth, and later says to stir in wine and water or broth for gravy. The exact liquid allocation is unclear.
+>
 
-The source lists both 1 cup water and 1 cup water or broth, and later says to stir in wine and water or broth for gravy. The exact liquid allocation is unclear.
+---
 
 ### Scalloped Potatoes
 
@@ -1956,6 +2211,8 @@ The source lists both 1 cup water and 1 cup water or broth, and later says to st
 2. Arrange the potatoes in three layers in a greased 10-inch baking dish. Sprinkle each layer with flour and dot with butter. Add the onions and chopped ham or bacon.
 3. Heat the milk and season it with paprika and dry mustard. Pour over the potatoes.
 4. Bake at 350 F for 25 minutes.
+
+---
 
 ### Smoked Brisket
 
@@ -1980,9 +2237,11 @@ Brine
 3. Wrap in foil and cook until the internal temperature reaches 185-190 F, about 2 more hours.
 4. Rest fat side up, wrapped in layers of foil in a warm cooler, for 2-4 hours.
 
-#### Note
+#### Recipe-box note
+> The source does not specify the quantities of peppercorns or garlic powder, or the brisket weight.
+>
 
-The source does not specify the quantities of peppercorns or garlic powder, or the brisket weight.
+---
 
 ### Steamed Artichokes
 
@@ -2004,6 +2263,8 @@ The source does not specify the quantities of peppercorns or garlic powder, or t
 2. Cover and steam for about 30 minutes, or until an outer leaf can be plucked off easily.
 3. Melt butter, add lemon juice, and dip the leaves in the lemon butter. Pull the edible part from the leaves with your teeth, as described in the source.
 
+---
+
 ### Tuna Casserole (hot)
 
 #### Ingredients
@@ -2020,6 +2281,8 @@ The source does not specify the quantities of peppercorns or garlic powder, or t
 1. Boil and rinse the pasta. Combine it with the soup, green beans, and tuna; season with salt and pepper. Do not add the potato chips yet.
 2. Place in an uncovered casserole dish and bake at 350 F for 35 minutes.
 3. Remove the casserole and cover the top with crushed potato chips. Continue baking for 10-15 minutes.
+
+---
 
 ### Tuna Pasta (cold)
 
@@ -2040,6 +2303,8 @@ The source does not specify the quantities of peppercorns or garlic powder, or t
 
 1. Boil and rinse the pasta. Combine it with the mayonnaise and tuna, adding any optional ingredients; season with salt and pepper.
 2. Refrigerate for 1 hour to chill.
+
+---
 
 ### Wild Rice Stuffing
 
@@ -2063,11 +2328,13 @@ The source does not specify the quantities of peppercorns or garlic powder, or t
 2. Saute shallots or onions, celery if desired, and mushrooms.
 3. Combine everything. Moisten with chicken stock, or cook the rice with some stock. Stir in butter when ready.
 
-#### Note
+#### Recipe-box note
+> The source does not specify quantities for most ingredients or give cooking times for the rice.
+>
 
-The source does not specify quantities for most ingredients or give cooking times for the rice.
+---
 
-## SAUCES
+## Sauces
 
 ### BBQ Sauce
 
@@ -2092,6 +2359,8 @@ The source does not specify quantities for most ingredients or give cooking time
 2. Reduce the heat to low-medium and add the garlic cloves. Simmer for at least 15 minutes, then remove the garlic.
 3. Transfer the sauce to clean jars and refrigerate. The source says it keeps for a couple of months.
 
+---
+
 ### Chili Powder
 
 #### Ingredients
@@ -2105,6 +2374,8 @@ The source does not specify quantities for most ingredients or give cooking time
 #### Directions
 
 Mix everything together and store in a glass jar.
+
+---
 
 ### Cranberry Sauce
 
@@ -2129,6 +2400,8 @@ Mix everything together and store in a glass jar.
 
 Makes 1 1/2 pints. The source describes the relish as thick, creamy, and bright pink, with a tangy flavor that cuts through turkey and gravy. It is also good on leftover turkey sandwiches and with roast beef. The source calls this section "The Recipe's Origins."
 
+---
+
 ### Easy Hollandaise Sauce (from Jo)
 
 #### Ingredients
@@ -2144,6 +2417,8 @@ Makes 1 1/2 pints. The source describes the relish as thick, creamy, and bright 
 
 1. Thin the cornstarch with the water and bring to a boil until clear.
 2. Remove from the heat and stir in the salt, lemon juice, and egg yolk. Add butter; the source does not specify an amount or further method.
+
+---
 
 ### Emerils Essence Powder
 
@@ -2166,6 +2441,8 @@ Makes 1 1/2 pints. The source describes the relish as thick, creamy, and bright 
 #### Yield and Uses
 
 Makes 1/3 cup. The source suggests using the blend with meat, poultry, seafood, grilled vegetables, or roasted vegetables. It also mentions Emeril Lagasse's original recipe on his website.
+
+---
 
 ### Gravy
 
@@ -2192,6 +2469,8 @@ Makes 1/3 cup. The source suggests using the blend with meat, poultry, seafood, 
 - Too thin? Simmer a few minutes longer, or whisk 1 Tbsp cornstarch with 1 Tbsp cold water and stir it in.
 - More flavor? Add a pinch of garlic powder, onion powder, or a teaspoon of beef bouillon.
 
+---
+
 ### Horseradish
 
 #### Ingredients
@@ -2205,6 +2484,8 @@ Makes 1/3 cup. The source suggests using the blend with meat, poultry, seafood, 
 #### Directions
 
 The source does not include preparation directions.
+
+---
 
 ### Italian Dressing
 
@@ -2224,6 +2505,8 @@ The source does not include preparation directions.
 
 The source labels this as an Italian dressing mix but does not include directions for mixing or preparing a dressing.
 
+---
+
 ### Ketchup
 
 Homemade ketchup; the source describes it as a dip or condiment with no added sugar or unusual ingredients, adjustable to taste, and says it "counts as a veggie."
@@ -2241,6 +2524,8 @@ Homemade ketchup; the source describes it as a dip or condiment with no added su
 #### Directions
 
 The source does not include preparation directions.
+
+---
 
 ### Mayo
 
@@ -2266,7 +2551,10 @@ Store in the refrigerator for up to 2 weeks.
 
 Adapted from Satisfying Eats Cookbook.
 
+---
+
 ### Mushroom Sauce
+*Yield: About 3 cups; enough to generously cover 4-5 pieces of protein or toss with pasta for 3-4 people.*
 
 #### Ingredients
 
@@ -2290,14 +2578,11 @@ Adapted from Satisfying Eats Cookbook.
 5. Stir occasionally and simmer for 2-3 minutes, until thickened. The source notes that it should not become very thick.
 6. Stir in the thyme and adjust the salt and pepper to taste. Remove from the heat.
 7. Serve over steak or other cooked protein, toss with pasta, stuff into baked potatoes, serve with roast beef, chicken, or pork, or spoon over omelets.
+#### Recipe-box note
+> The source refers to numbered notes 1-4 for ingredient details and substitutions, but their text was not included in this file. It also refers to more serving ideas in the original post.
+>
 
-#### Yield
-
-About 3 cups; enough to generously cover 4-5 pieces of protein or toss with pasta for 3-4 people.
-
-#### Note
-
-The source refers to numbered notes 1-4 for ingredient details and substitutions, but their text was not included in this file. It also refers to more serving ideas in the original post.
+---
 
 ### Pesto (Deb)
 
@@ -2314,6 +2599,8 @@ The source refers to numbered notes 1-4 for ingredient details and substitutions
 #### Directions
 
 The source lists ingredients but gives no preparation directions.
+
+---
 
 ### Ranch Dressing
 
@@ -2335,6 +2622,8 @@ The source lists ingredients but gives no preparation directions.
 4. Add salt and pepper and mix well. At this stage, the mixture is a dip.
 5. To make a dressing, add a few tablespoons of water or milk and stir. Add more until it reaches the desired consistency.
 6. Serve with vegetables, salad, or ranch chicken.
+
+---
 
 ### Remos Rub Powder
 
@@ -2390,9 +2679,11 @@ The source lists ingredients but gives no preparation directions.
 
 The source provides the braising mixture and two rub ingredient lists but no preparation directions.
 
-#### Note
+#### Recipe-box note
+> The rub amounts are transcribed as in the source; units are not specified. The two rub lists are retained separately because one is labeled "hot" and differs in its seasonings.
+>
 
-The rub amounts are transcribed as in the source; units are not specified. The two rub lists are retained separately because one is labeled "hot" and differs in its seasonings.
+---
 
 ### Sausage Seasoning Powder
 
@@ -2406,6 +2697,8 @@ The rub amounts are transcribed as in the source; units are not specified. The t
 #### Directions
 
 Add 1 1/3 Tbsp seasoning to 1 lb browned ground beef.
+
+---
 
 ### Sweet Curry Powder
 
@@ -2429,7 +2722,10 @@ Add 1 1/3 Tbsp seasoning to 1 lb browned ground beef.
 
 The source does not include preparation directions.
 
+---
+
 ### Taco Seasoning Powder
+*Yield: 3 Tbsp.*
 
 #### Ingredients
 
@@ -2445,9 +2741,7 @@ The source does not include preparation directions.
 
 The source does not include preparation directions.
 
-#### Yield
-
-3 Tbsp.
+---
 
 ### Thousand Island Dressing
 
@@ -2462,6 +2756,8 @@ The source does not include preparation directions.
 #### Directions
 
 The source does not include preparation directions.
+
+---
 
 ### Tomato Sauce for Pasta (Quick and Easy)
 
@@ -2486,6 +2782,7 @@ The source does not include preparation directions.
 3. Add the tomatoes, puree them first if desired, and add the tomato paste and salt. Simmer until the sauce is nearly done.
 4. Saute the ground beef separately and add it near the end. If desired, saute mushrooms separately and add them too.
 
-#### Note
+#### Recipe-box note
+> The source does not give a simmer time or specify the amount of pepper.
 
-The source does not give a simmer time or specify the amount of pepper.
+---
