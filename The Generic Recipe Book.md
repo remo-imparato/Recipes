@@ -66,8 +66,8 @@ No breadcrumbs or flour: adding either would make this a crab loaf, according to
 #### Ingredients
 
 - 1 cup lentils
-- Cooked tortellini (quantity not specified)
-- Tomatoes (quantity not specified)
+- Cooked tortellini
+- Tomatoes
 - Olive oil
 - Balsamic vinegar
 - Fresh oregano
@@ -153,8 +153,8 @@ The source does not include preparation directions.
 - 1/4 tsp cayenne
 - 1/4 cup oil
 - 1/2 cup vinegar
-- Sweet onion, chopped (quantity not specified)
-- 3 kinds of beans (quantities and types not specified)
+- 1 sweet onion, chopped
+- 3 kinds of beans
 
 #### Directions
 
@@ -187,7 +187,7 @@ The source lists ingredients but gives no preparation directions.
 #### Ingredients
 
 - 4-5 cups apple slices
-- Lemon or lime juice: source says ?12? with no unit (quantity unclear)
+- 1/2 tsp lemon or lime juice
 - 1/2 cup sugar
 - Cinnamon (quantity not specified)
 - Butter (quantity not specified)
@@ -203,7 +203,7 @@ The source lists ingredients but gives no preparation directions.
 
 #### Note
 
-The citrus quantity and amounts of cinnamon, butter, nuts, flour, and brown sugar are not specified clearly in the source.
+The amounts of cinnamon, butter, nuts, flour, and brown sugar are not specified clearly in the source.
 
 ### Apple Tarte Tatin
 
@@ -251,7 +251,7 @@ The citrus quantity and amounts of cinnamon, butter, nuts, flour, and brown suga
 - 2 tsp baking soda
 - 2 tsp baking powder
 - 2 tsp cinnamon
-- Nutmeg (source lists ?1/4? with no unit)
+- 1/4 tsp nutmeg
 - 1 cup pecans or walnuts
 - 3 cups (1 lb) grated carrots
 - 1 cup golden raisins
@@ -264,17 +264,13 @@ The citrus quantity and amounts of cinnamon, butter, nuts, flour, and brown suga
 3. Pour into greased and floured pans: three cake pans or one 9-by-11-inch baking dish.
 4. Bake at 350 F for 1 hour.
 
-#### Note
-
-The nutmeg quantity is incomplete in the source; no unit was supplied.
-
 ### Chocolate Butter Icing
 
 #### Ingredients
 
 - 3 oz unsweetened chocolate, or substitute 3 Tbsp cocoa and 1 Tbsp butter per ounce of chocolate
 - 3 Tbsp butter
-- Milk: source says ?14 c? (quantity unclear; likely fraction is missing)
+- 1/4 cup milk
 - About 2 cups powdered sugar
 - 1 tsp vanilla
 - Salt (mentioned in the directions, but no amount is given)
@@ -284,9 +280,6 @@ The nutmeg quantity is incomplete in the source; no unit was supplied.
 1. Melt the chocolate and butter. Remove from the heat.
 2. Add the milk and salt. Gradually add the powdered sugar and vanilla.
 
-#### Note
-
-The milk quantity is garbled in the source and has not been guessed.
 
 ### Chocolate Chip and Orange Muffins
 
@@ -448,7 +441,7 @@ The source does not clearly say when to combine the gelatin-cream mixture with t
 - 1 1/3 cups sugar
 - 1/3 cup butter
 - 1 egg
-- 1 cup pumpkin pur?e
+- 1 cup pumpkin puree
 - 1 2/3 cups flour
 - 1/4 tsp baking powder
 - 1/4 tsp cloves
@@ -471,7 +464,7 @@ The source does not specify the oven temperature or loaf-pan size.
 
 #### Ingredients
 
-- 2 eggs (the source lists eggs twice, totaling 4)
+- 2 eggs
 - 1/2 cup sugar
 - 1/4 cup maple syrup
 - 1 1/2 cups sour cream
@@ -484,12 +477,8 @@ The source does not specify the oven temperature or loaf-pan size.
 
 #### Directions
 
-1. The source does not give mixing or filling instructions. It says to buy a pie crust or consult ?Grandma Google.?
+1. The source does not give mixing or filling instructions. It says to buy a pie crust or consult Grandma Google.
 2. Bake for 15 minutes at 425 F, then 45 minutes at 350 F.
-
-#### Note
-
-The source lists ?2 eggs? both before and after the spices; both amounts are retained. It does not specify whether the pumpkin is canned or cooked, or provide doneness cues.
 
 ### Pumpkin Pie
 
@@ -1473,7 +1462,7 @@ A Mexican-style marinated, grilled beef served in tortillas. Prep time: 30 minut
 #### Directions
 
 1. Squeeze the lime juice over the chicken and marinate as long as possible.
-2. Saut? garlic and onion in olive oil. Add the chicken and saut? until nearly cooked, then add peppers and cilantro and cook through.
+2. Saute garlic and onion in olive oil. Add the chicken and saute until nearly cooked, then add peppers and cilantro and cook through.
 3. Heat tortillas in an iron skillet for about 1 minute per side and keep warm.
 4. At the table, spoon the mixture into tortillas. Add salsa, fresh cilantro, and tomato, then roll up. Serve with refried beans and guacamole.
 
@@ -1533,7 +1522,7 @@ The source lists ingredients but gives no preparation directions.
 
 1. Turn on the broiler. Wash the beets, cut off the tops, and set the greens aside.
 2. Slice the beets thinly, spread them on a cookie sheet, drizzle with oil, and sprinkle with salt. Broil for about 8 minutes, then flip. Continue until as tender as desired, watching carefully so they do not burn.
-3. Wash and chop the greens, rinsing again to remove sandy soil. Heat olive oil in a lidded, preferably heavy-bottomed saucepan. Saut? garlic for about 1 minute.
+3. Wash and chop the greens, rinsing again to remove sandy soil. Heat olive oil in a lidded, preferably heavy-bottomed saucepan. Saute garlic for about 1 minute.
 4. Add the greens and a little salt. Cover and steam for up to 10 minutes.
 5. Mix the beets and greens together or serve them separately.
 
@@ -1665,7 +1654,7 @@ The source does not give quantities for the salt, white pepper, or nutmeg, nor a
 
 #### Ingredients
 
-- 2 lb chicken thighs (source says ?things?), or 1 lb chicken breasts
+- 2 lb chicken thighs, or 1 lb chicken breasts
 - 2 Tbsp cornstarch
 - 1 Tbsp soy sauce
 - 10 dried hot red peppers, about 1 inch long
@@ -1726,7 +1715,7 @@ The source specifies cooking the lentils for 25 minutes in 7 cups of water but g
 - 1 tsp baking powder
 - 1/4 tsp salt
 - 1/3 tsp pepper
-- 3 Tbsp melted schmaltz or vegetable oil; the source also says "chicken fat," but its relationship to the alternatives is unclear
+- 3 Tbsp melted schmaltz (chicken fat) or vegetable oil
 - 1 tsp minced fresh dill
 
 #### Directions
@@ -1764,13 +1753,13 @@ The source says the soup and matzo balls can be frozen. To freeze uncooked matzo
 - 1 onion or several shallots
 - 3 potatoes, thinly sliced
 - 1/2 lb spinach
-- Broth: source says ?1/12 c? (quantity unclear)
+- 1 1/2 cup broth
 - 1/4 tsp thyme
 - Salt and pepper
 
 #### Directions
 
-The source lists ingredients but gives no preparation directions. The broth quantity is unclear in the source.
+The source lists ingredients but gives no preparation directions.
 
 ### Pasta with Tuna and Spinach
 
@@ -1786,7 +1775,7 @@ The source lists ingredients but gives no preparation directions. The broth quan
 
 #### Directions
 
-1. Saut? the garlic, then add the onion and cook until wilted.
+1. Saute the garlic, then add the onion and cook until wilted.
 2. Add the spinach and cook. Add the tomatoes and tuna and simmer briefly.
 3. Add oregano and serve over linguine.
 
@@ -1882,13 +1871,13 @@ Serve with fresh rolls and heated gravy.
 - 1 Tbsp apple cider vinegar
 - Salt (optional; quantity not specified)
 - Salsa verde (quantity not specified; mentioned in directions only)
-- Cholula (spelled ?Chilula? in source; quantity not specified)
+- Chilula
 
 #### Directions
 
-1. Saut? the garlic for 1 minute. Add the onion and cook until translucent.
-2. Add the bell pepper, if using, and saut?.
-3. Add the black beans, spices, vinegar, salsa verde, and Cholula. The source does not specify whether to mash the beans.
+1. Saute the garlic for 1 minute. Add the onion and cook until translucent.
+2. Add the bell pepper, if using, and saute.
+3. Add the black beans, spices, vinegar, salsa verde, and Chilula. The source does not specify whether to mash the beans.
 4. Serve in tortillas, if desired.
 
 ### Risotto (Deb)
@@ -1901,9 +1890,9 @@ Serve with fresh rolls and heated gravy.
 - 1/2 cup minced parsley
 - Salt and pepper
 - 1/4 cup butter
-- Arborio rice: source says ?1-12 c? (quantity unclear)
+- 1 1/2 cups Arborio rice
 - 4 cups hot chicken broth, plus more if needed
-- Grated Parmesan: source says ?1@ c? (quantity unclear)
+- Grated Parmesan to taste
 
 #### Directions
 
@@ -1912,9 +1901,6 @@ Serve with fresh rolls and heated gravy.
 3. Add the hot broth a little at a time, stirring constantly and allowing it to be absorbed before adding more. More broth may be needed.
 4. Combine with the mushroom mixture and cheese.
 
-#### Note
-
-The rice and Parmesan quantities are garbled in the source and have not been guessed.
 
 ### Roast Chicken (Deb)
 
@@ -1957,7 +1943,7 @@ The source lists both 1 cup water and 1 cup water or broth, and later says to st
 - 1 tsp salt
 - 2 Tbsp flour
 - 3-6 Tbsp butter
-- 1/4 cup saut?ed onions
+- 1/4 cup sauteed onions
 - 1/4 cup thinly sliced peppers
 - 1/4 tsp dry mustard
 - Ham or bacon (quantity not specified)
@@ -2064,7 +2050,7 @@ The source does not specify the quantities of peppercorns or garlic powder, or t
 - Butter (amount not specified; stir in when ready)
 - Shallots or onions (amount not specified)
 - Lovage or celery (amount not specified; celery is optional)
-- 1 cup saut?ed mushrooms
+- 1 cup sauteed mushrooms
 - 1/2 cup pine nuts
 - Basil, cayenne, tarragon, and fresh parsley (amounts not specified)
 - Raisins (amount not specified)
@@ -2074,7 +2060,7 @@ The source does not specify the quantities of peppercorns or garlic powder, or t
 #### Directions
 
 1. Cook the wild rice and basmati rice separately.
-2. Saut? shallots or onions, celery if desired, and mushrooms.
+2. Saute shallots or onions, celery if desired, and mushrooms.
 3. Combine everything. Moisten with chicken stock, or cook the rice with some stock. Stir in butter when ready.
 
 #### Note
@@ -2319,7 +2305,7 @@ The source refers to numbered notes 1-4 for ingredient details and substitutions
 
 - 2 cups fresh basil leaves, tightly packed
 - 1 tsp salt
-- Black pepper: source says ?1/2? with no unit (optional)
+- 1/2 tsp Black pepper (optional)
 - 3 garlic cloves
 - 1/2 cup finely chopped pine nuts or walnuts
 - 1/4-3/4 cup olive oil
@@ -2481,6 +2467,7 @@ The source does not include preparation directions.
 
 #### Ingredients
 
+- 1 lb ground beef
 - 1 (28 oz) can whole tomatoes
 - 1 (6 oz) can tomato paste
 - 2 garlic cloves, minced
@@ -2490,14 +2477,14 @@ The source does not include preparation directions.
 - 1 1/2 tsp basil
 - Salt and pepper
 - 2-3 Tbsp olive oil
-- Saut?ed mushrooms and ground beef (optional; quantities not specified)
+- Sauteed mushrooms (optional; quantity not specified)
 
 #### Directions
 
-1. Heat the olive oil in a frying pan. Add the garlic and saut? until golden, taking care not to burn it.
-2. Add the herbs and celery and saut?.
-3. Add the tomatoes, pur?eing them first if desired, and add the tomato paste and salt. Simmer until the sauce is nearly done.
-4. If desired, saut? mushrooms and ground beef separately and add them to the sauce near the end.
+1. Heat the olive oil in a frying pan. Add the garlic and saute until golden, taking care not to burn it.
+2. Add the herbs and celery and saute.
+3. Add the tomatoes, puree them first if desired, and add the tomato paste and salt. Simmer until the sauce is nearly done.
+4. Saute the ground beef separately and add it near the end. If desired, saute mushrooms separately and add them too.
 
 #### Note
 

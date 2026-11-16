@@ -18,7 +18,7 @@
 - 1 tsp baking powder
 - 1/4 tsp salt
 - 1/3 tsp pepper
-- 3 Tbsp melted schmaltz or vegetable oil; the source also says "chicken fat," but its relationship to the alternatives is unclear
+- 3 Tbsp melted schmaltz (chicken fat) or vegetable oil
 - 1 tsp minced fresh dill
 
 ## Directions

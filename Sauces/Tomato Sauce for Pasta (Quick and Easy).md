@@ -1,6 +1,7 @@
 # Tomato Sauce for Pasta (Quick and Easy)
 
 ## Ingredients
+- 1 lb ground beef
 - 1 (28 oz) can whole tomatoes
 - 1 (6 oz) can tomato paste
 - 2 garlic cloves, minced
@@ -10,13 +11,13 @@
 - 1 1/2 tsp basil
 - Salt and pepper
 - 2-3 Tbsp olive oil
-- Saut?ed mushrooms and ground beef (optional; quantities not specified)
+- Sauteed mushrooms (optional; quantity not specified)
 
 ## Directions
-1. Heat the olive oil in a frying pan. Add the garlic and saut? until golden, taking care not to burn it.
-2. Add the herbs and celery and saut?.
-3. Add the tomatoes, pur?eing them first if desired, and add the tomato paste and salt. Simmer until the sauce is nearly done.
-4. If desired, saut? mushrooms and ground beef separately and add them to the sauce near the end.
+1. Heat the olive oil in a frying pan. Add the garlic and saute until golden, taking care not to burn it.
+2. Add the herbs and celery and saute.
+3. Add the tomatoes, puree them first if desired, and add the tomato paste and salt. Simmer until the sauce is nearly done.
+4. Saute the ground beef separately and add it near the end. If desired, saute mushrooms separately and add them too.
 
 ## Note
 The source does not give a simmer time or specify the amount of pepper.

@@ -4,7 +4,7 @@
 - 1 1/3 cups sugar
 - 1/3 cup butter
 - 1 egg
-- 1 cup pumpkin pur?e
+- 1 cup pumpkin puree
 - 1 2/3 cups flour
 - 1/4 tsp baking powder
 - 1/4 tsp cloves

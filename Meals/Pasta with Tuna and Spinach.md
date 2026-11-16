@@ -10,6 +10,6 @@
 - Oregano (quantity not specified)
 
 ## Directions
-1. Saut? the garlic, then add the onion and cook until wilted.
+1. Saute the garlic, then add the onion and cook until wilted.
 2. Add the spinach and cook. Add the tomatoes and tuna and simmer briefly.
 3. Add oregano and serve over linguine.

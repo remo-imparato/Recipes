@@ -5,7 +5,7 @@
 - 1 tsp salt
 - 2 Tbsp flour
 - 3-6 Tbsp butter
-- 1/4 cup saut?ed onions
+- 1/4 cup sauteed onions
 - 1/4 cup thinly sliced peppers
 - 1/4 tsp dry mustard
 - Ham or bacon (quantity not specified)

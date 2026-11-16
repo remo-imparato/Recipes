@@ -2,8 +2,8 @@
 
 ## Ingredients
 - 1 cup lentils
-- Cooked tortellini (quantity not specified)
-- Tomatoes (quantity not specified)
+- Cooked tortellini
+- Tomatoes
 - Olive oil
 - Balsamic vinegar
 - Fresh oregano

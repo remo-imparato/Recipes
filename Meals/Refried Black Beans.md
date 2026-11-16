@@ -12,12 +12,12 @@
 - 1 Tbsp apple cider vinegar
 - Salt (optional; quantity not specified)
 - Salsa verde (quantity not specified; mentioned in directions only)
-- Cholula (spelled ?Chilula? in source; quantity not specified)
+- Chilula
 
 ## Directions
-1. Saut? the garlic for 1 minute. Add the onion and cook until translucent.
-2. Add the bell pepper, if using, and saut?.
-3. Add the black beans, spices, vinegar, salsa verde, and Cholula. The source does not specify whether to mash the beans.
+1. Saute the garlic for 1 minute. Add the onion and cook until translucent.
+2. Add the bell pepper, if using, and saute.
+3. Add the black beans, spices, vinegar, salsa verde, and Chilula. The source does not specify whether to mash the beans.
 4. Serve in tortillas, if desired.
 
 ## Source note

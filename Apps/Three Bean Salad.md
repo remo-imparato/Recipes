@@ -6,8 +6,8 @@
 - 1/4 tsp cayenne
 - 1/4 cup oil
 - 1/2 cup vinegar
-- Sweet onion, chopped (quantity not specified)
-- 3 kinds of beans (quantities and types not specified)
+- 1 sweet onion, chopped
+- 3 kinds of beans
 
 ## Directions
 The source lists ingredients but gives no preparation directions.

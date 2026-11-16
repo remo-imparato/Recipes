@@ -1,7 +1,7 @@
 # Kung Pao (Princess Chicken)
 
 ## Ingredients
-- 2 lb chicken thighs (source says ?things?), or 1 lb chicken breasts
+- 2 lb chicken thighs, or 1 lb chicken breasts
 - 2 Tbsp cornstarch
 - 1 Tbsp soy sauce
 - 10 dried hot red peppers, about 1 inch long

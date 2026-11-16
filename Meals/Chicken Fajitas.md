@@ -15,6 +15,6 @@
 
 ## Directions
 1. Squeeze the lime juice over the chicken and marinate as long as possible.
-2. Saut? garlic and onion in olive oil. Add the chicken and saut? until nearly cooked, then add peppers and cilantro and cook through.
+2. Saute garlic and onion in olive oil. Add the chicken and saute until nearly cooked, then add peppers and cilantro and cook through.
 3. Heat tortillas in an iron skillet for about 1 minute per side and keep warm.
 4. At the table, spoon the mixture into tortillas. Add salsa, fresh cilantro, and tomato, then roll up. Serve with refried beans and guacamole.

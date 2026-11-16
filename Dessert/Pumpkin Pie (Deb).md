@@ -1,7 +1,7 @@
 # Pumpkin Pie (Deb)
 
 ## Ingredients
-- 2 eggs (the source lists eggs twice, totaling 4)
+- 2 eggs
 - 1/2 cup sugar
 - 1/4 cup maple syrup
 - 1 1/2 cups sour cream
@@ -13,8 +13,5 @@
 - Pie crust (store-bought or use another recipe)
 
 ## Directions
-1. The source does not give mixing or filling instructions. It says to buy a pie crust or consult ?Grandma Google.?
+1. The source does not give mixing or filling instructions. It says to buy a pie crust or consult Grandma Google.
 2. Bake for 15 minutes at 425 F, then 45 minutes at 350 F.
-
-## Note
-The source lists ?2 eggs? both before and after the spices; both amounts are retained. It does not specify whether the pumpkin is canned or cooked, or provide doneness cues.

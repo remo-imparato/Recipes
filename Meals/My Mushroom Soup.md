@@ -7,9 +7,9 @@
 - 1 onion or several shallots
 - 3 potatoes, thinly sliced
 - 1/2 lb spinach
-- Broth: source says ?1/12 c? (quantity unclear)
+- 1 1/2 cups broth
 - 1/4 tsp thyme
 - Salt and pepper
 
 ## Directions
-The source lists ingredients but gives no preparation directions. The broth quantity is unclear in the source.
+The source lists ingredients but gives no preparation directions.
