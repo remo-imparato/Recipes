@@ -2137,6 +2137,7 @@ Serve with fresh rolls and heated gravy.
 #### Ingredients
 
 - 2 Slabs baby back ribs
+- Remo's Rub to cover
 
 ##### Braising Mixture
 
@@ -2147,7 +2148,7 @@ Serve with fresh rolls and heated gravy.
 - 2 Tbsp honey
 - 2 garlic cloves
 
-##### Rub
+##### Remo's Rub
 
 (Units of your choosing, just keep the same ratio)
 - 8 brown sugar
