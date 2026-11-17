@@ -1,0 +1,42 @@
+name: Check Copilot recipe PR
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize, ready_for_review, edited]
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  recipe-add-only:
+    if: >-
+      github.event.pull_request.head.repo.id == github.event.repository.id &&
+      startsWith(github.event.pull_request.head.ref, 'copilot/')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out trusted base only
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          fetch-depth: 0
+      - name: Verify one new recipe and no other file changes
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        shell: bash
+        run: |
+          # Fetch the commit for comparison only; never check out or execute PR content.
+          git fetch --no-tags origin "$HEAD_SHA"
+          diff_file=$(mktemp)
+          trap 'rm -f "$diff_file"' EXIT
+          git diff --raw --no-abbrev --no-renames -z "$BASE_SHA...$HEAD_SHA" -- > "$diff_file"
+          mapfile -d '' -t changes < "$diff_file"
+          added_file='^:000000 100644 [0-9a-f]+ [0-9a-f]+ A$'
+          recipe_path='^recipes/(Apps|Dessert|Drinks|Meals|Sauces)/[^/]+\.md$'
+
+          if [[ ${#changes[@]} -ne 2 || ! ${changes[0]} =~ $added_file || ! ${changes[1]} =~ $recipe_path ]]; then
+            echo "::error::Copilot may only add one regular .md file directly inside an existing recipe category."
+            exit 1
+          fi

@@ -30,6 +30,19 @@ Only Markdown recipes under `recipes/` are published. The combined source docume
 
 Use ordinary Markdown links. Relative links to recipes and section headings are supported. Referenced PNG, JPEG, GIF, WebP, AVIF, and PDF files under `recipes/` are copied to the site; other local files are not. Use forward slashes in Markdown URLs and URL-encode special characters in filenames. Invalid or unsafe links and missing local targets fail the build.
 
+### Submit a recipe through GitHub
+
+Open **Issues → New issue → Add a recipe** and fill in the form. Keep the `[Recipe]` title prefix. Requests opened by someone with write access are assigned to GitHub Copilot automatically. For outside submissions, a maintainer should review the issue and apply `recipe-approved` to start Copilot. Do not approve requests that ask for existing files to be changed.
+
+Copilot works on a branch from the default branch and prepares a draft pull request containing one new recipe. It will not make up missing recipe details or replace a duplicate. The [add-only check](.github/workflows/check-copilot-recipe.yml) flags any same-repository `copilot/` branch PR into `main` that changes anything other than one new Markdown file in an existing recipe category. Review the recipe and its diff before merging. Nothing merges automatically.
+
+To enable this after merging the [assignment workflow](.github/workflows/assign-recipe-issue.yml) into `main`:
+
+1. Enable GitHub Copilot cloud agent for the repository and create the `recipe-approved` issue label.
+2. Create a fine-grained personal access token from an account with Copilot cloud agent and write access. Limit it to this repository, with **Metadata: Read** and **Actions, Contents, Issues, and Pull requests: Read and write**, as [required by GitHub](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-via-the-api#assigning-an-existing-issue).
+3. Store the token under **Settings → Secrets and variables → Actions → New repository secret** as `RECIPE_COPILOT_TOKEN`. Do not put it in an issue or a file.
+4. Protect `main` with a rule requiring a pull request and human approval. On Copilot PRs, verify that the add-only check passed for the latest changes before approving the merge.
+
 ## Publishing
 
 The [GitHub Actions workflow](.github/workflows/pages.yml) tests and builds the site on pushes to `main`; it can also be run manually from **Actions → Build and publish recipe website → Run workflow**. For first-time setup, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. A failed build is not deployed.
