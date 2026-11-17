@@ -19,7 +19,7 @@ Edit the individual `.md` files in the category folders. Start each recipe with 
 
 ## Directions
 1. First step.
-2. Next step.
+2. Next step. 
 
 ## Notes
 Optional variations, sources, or family notes.
