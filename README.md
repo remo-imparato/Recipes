@@ -1,4 +1,6 @@
-# The Family Table
+# The Imparato Family Cookbook*
+
+Mostly Accurate Recipes Since Whenever Grandma Wrote Them Down
 
 A family recipe collection, maintained as individual Markdown files.
 
