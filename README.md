@@ -8,7 +8,7 @@ The website is generated automatically after changes are committed and pushed to
 
 ## Editing recipes
 
-Edit the individual `.md` files in the category folders. Start each recipe with one title:
+Edit the individual `.md` files anywhere under `recipes/`. All ordinary subfolders are scanned automatically during generation and publishing. Start each recipe with one title:
 
 ```markdown
 # Recipe name
@@ -27,15 +27,15 @@ Optional variations, sources, or family notes.
 
 Additional sections and nested headings are supported. Ingredient checkboxes are added to unordered lists within an `Ingredients` section, including its subsections, but not nested detail lists. Keep recipe titles distinct: punctuation and accents are normalized when generating recipe links. Existing shared recipe links are preserved.
 
-- **Add:** save a Markdown recipe in a category folder.
+- **Add:** save a Markdown recipe anywhere under `recipes/` (the `.md` extension is case-insensitive).
 - **Edit:** change its Markdown file.
 - **Delete:** remove its Markdown file.
 - **Rename:** a file can be renamed without changing its link if its title stays the same. Changing the title can change its website link.
-- **New category:** create a top-level folder containing Markdown recipes. Its name becomes the category label.
+- **New category:** create a folder under `recipes/` containing Markdown recipes. Its name becomes the category label.
 
-Subfolders within a category are supported. `Apps` displays as **Appetizers** and `Dessert` as **Desserts**. The original category order is preserved; new categories follow alphabetically. Do not create a second folder with the same displayed category label or name a category `all`.
+The first folder under `recipes/` determines the category: for example, `recipes/Meals/Soups/soup.md` appears under **Meals**. `Apps` displays as **Appetizers** and `Dessert` as **Desserts**. The original category order is preserved; new categories follow alphabetically. Do not create a second folder with the same displayed category label or name a category `all`.
 
-Root-level Markdown files are not recipe inputs. Hidden folders and these reserved folders are excluded at every level: `archive`, `website`, `tools`, `tests`, `_site`, `bin`, `obj`, `TestResults`, and `node_modules`.
+Markdown files directly under `recipes/` appear in **General**. If using these files, do not also create a `General` category folder. Hidden files/folders (including names beginning with a dot), symbolic links, and junctions are skipped. All other folder names are eligible, including `archive`, `tools`, `tests`, `bin`, and `obj`. Files outside `recipes/` are never recipe inputs. New categories and recipe cards need no code or workflow changes; commit and push them to `main` to publish.
 
 Only standalone recipe Markdown is authoritative. Original combined documents are preserved in [archive](archive/), but are not published or synchronized. All Word documents remain unchanged; Word-only recipes must be converted to Markdown to appear on the website. Do not edit the generated website to update a recipe.
 
@@ -49,7 +49,7 @@ Use ordinary Markdown links. Relative links to another discovered recipe become 
 ![Recipe photo](pictures/my%20photo.jpg)
 ```
 
-Referenced PNG, JPEG, GIF, WebP, AVIF, and PDF files inside eligible category folders are copied into the published site. Other files are not copied. Use forward slashes in Markdown URLs and URL-encode special characters in filenames.
+Referenced PNG, JPEG, GIF, WebP, AVIF, and PDF files inside `recipes/` are copied into the published site. Other files are not copied. Use forward slashes in Markdown URLs and URL-encode special characters in filenames.
 
 HTTP/HTTPS links and email links are supported; images may use HTTP/HTTPS. Raw HTML is displayed as text, not executed. Unsafe URLs, missing local targets, and invalid recipe links fail the build with the source filename. Use Markdown rather than embedded HTML.
 
@@ -84,14 +84,28 @@ Without JavaScript, recipes remain readable and can be expanded manually; intera
 
 Install the .NET 10 SDK selected by [global.json](global.json). No Node.js, database, or web server is required to build.
 
+### Visual Studio
+
+Open [Recipes.sln](Recipes.sln) in Visual Studio with .NET 10 support.
+
+- **Build → Build Solution** builds both projects and generates the website in `_site/`. Build again after editing recipes or website files; generation runs even when the C# code has not changed.
+- **Test → Test Explorer → Run All Tests** runs the builder's MSTest regression tests.
+- Open `_site/index.html` in a browser to view the generated website.
+
+Website generation errors fail the solution build and appear in the build output. Building does not publish; commit and push to `main` to publish through GitHub Actions.
+
+### Command line
+
 From the repository root in PowerShell:
 
 ```powershell
-dotnet restore tests\RecipeSiteBuilder.Tests\RecipeSiteBuilder.Tests.csproj --locked-mode
-dotnet test tests\RecipeSiteBuilder.Tests\RecipeSiteBuilder.Tests.csproj --configuration Release --no-restore
-dotnet run --project tools\RecipeSiteBuilder --configuration Release --no-restore -- .
+dotnet restore Recipes.sln --locked-mode
+dotnet build Recipes.sln --configuration Release --no-restore
+dotnet test Recipes.sln --configuration Release --no-build --no-restore
 Start-Process .\_site\index.html
 ```
+
+For website generation without building the entire solution, use `dotnet run --project tools\RecipeSiteBuilder --configuration Release --no-restore -- .`.
 
 The builder creates `_site`, which is ignored by Git and regenerated on each successful build. Do not put manually maintained files there. Dependencies are locked in committed NuGet lock files.
 

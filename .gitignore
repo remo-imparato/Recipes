@@ -1,5 +1,6 @@
 **/bin/
 **/obj/
+.vs/
 _site/
 TestResults/
 **/TestResults/

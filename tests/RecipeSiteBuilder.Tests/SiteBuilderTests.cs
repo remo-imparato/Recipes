@@ -23,12 +23,13 @@ public sealed class SiteBuilderTests
     [TestMethod]
     public void DiscoversCategoriesAndNestedRecipesWhileIgnoringInfrastructure()
     {
-        Write("Apps/Starter.md", "# Starter\n\n## Ingredients\n- Salt\n");
-        Write("Dessert/nested/Sweet.MD", "# Sweet\n");
-        Write("Breakfast/Eggs.md", "# Eggs\n");
-        foreach (var ignored in new[] { "README.md", "archive/old.md", "tools/example.md", "tests/example.md", "_site/stale.md", ".private/secret.md", "Meals/.private/secret.md", "Meals/bin/ignored.md" })
+        Write("recipes/Apps/Starter.md", "# Starter\n\n## Ingredients\n- Salt\n");
+        Write("recipes/Dessert/nested/Sweet.MD", "# Sweet\n");
+        Write("recipes/Breakfast/Eggs.md", "# Eggs\n");
+        Write("Meals/root-level.md", "# Ignored");
+        foreach (var ignored in new[] { "README.md", "archive/old.md", "tools/example.md", "tests/example.md", "_site/stale.md", ".private/secret.md", "recipes/.private/secret.md", "recipes/.hidden.md", "recipes/Meals/.private/secret.md" })
             Write(ignored, "not a recipe");
-        Write("Meals/Word only.docx", "not a recipe");
+        Write("recipes/Meals/Word only.docx", "not a recipe");
 
         var result = SiteBuilder.Build(root);
         var html = Output();
@@ -44,27 +45,98 @@ public sealed class SiteBuilderTests
     }
 
     [TestMethod]
+    public void DiscoversAllOrdinaryFoldersAndKeepsNestedRecipesInTopLevelCategories()
+    {
+        Write("recipes/archive/old.md", "# Old\n\n![Photo](../Meals/bin/photo.png)");
+        Write("recipes/tools/deep/nested/recipe.MD", "# Nested");
+        Write("recipes/Meals/bin/meal.md", "# Meal");
+        Write("recipes/tests/recipe.md", "# Test");
+        Write("recipes/Meals/bin/photo.png", "fixture image bytes");
+
+        var result = SiteBuilder.Build(root);
+        var html = Output();
+
+        Assert.AreEqual(4, result.RecipeCount);
+        Assert.AreEqual(4, result.CategoryCount);
+        StringAssert.Contains(html, "id=\"recipe-old\" data-title=\"Old\" data-category=\"archive\"");
+        StringAssert.Contains(html, "id=\"recipe-nested\" data-title=\"Nested\" data-category=\"tools\"");
+        StringAssert.Contains(html, "id=\"recipe-meal\" data-title=\"Meal\" data-category=\"Meals\"");
+        StringAssert.Contains(html, "id=\"recipe-test\" data-title=\"Test\" data-category=\"tests\"");
+        StringAssert.Contains(html, "src=\"assets/Meals/bin/photo.png\"");
+    }
+
+    [TestMethod]
+    public void DiscoversRootRecipesAndResolvesTheirLinksAndAssets()
+    {
+        Write("recipes/first.MD", "# First\n\n[Next](Meals/second.md)\n![Photo](photo.png)");
+        Write("recipes/photo.png", "fixture image bytes");
+        Write("recipes/Meals/second.md", "# Second\n\n[First](../first.MD)\n![Photo](../photo.png)");
+
+        var result = SiteBuilder.Build(root);
+        var html = Output();
+
+        Assert.AreEqual(2, result.RecipeCount);
+        Assert.AreEqual(2, result.CategoryCount);
+        StringAssert.Contains(html, "id=\"recipe-first\" data-title=\"First\" data-category=\"General\"");
+        StringAssert.Contains(html, "href=\"#recipe-first\"");
+        StringAssert.Contains(html, "href=\"#recipe-second\"");
+        StringAssert.Contains(html, "src=\"assets/photo.png\"");
+        Assert.AreEqual("fixture image bytes", File.ReadAllText(Path.Combine(root, "_site", "assets", "photo.png")));
+    }
+
+    [TestMethod]
+    public void BuildsRootRecipesWithoutAnyCategoryFolders()
+    {
+        Write("recipes/only.md", "# Only");
+
+        var result = SiteBuilder.Build(root);
+
+        Assert.AreEqual(1, result.RecipeCount);
+        Assert.AreEqual(1, result.CategoryCount);
+        StringAssert.Contains(Output(), "data-category=\"General\"");
+    }
+
+    [TestMethod]
+    public void RejectsExistingAssetsOutsideRecipes()
+    {
+        Write("recipes/only.md", "# Only\n\n![Photo](../photo.png)");
+        Write("photo.png", "outside image bytes");
+
+        var exception = Assert.ThrowsExactly<InvalidOperationException>(() => SiteBuilder.Build(root));
+
+        StringAssert.Contains(exception.Message, "outside recipes");
+        Assert.IsFalse(File.Exists(Path.Combine(root, "_site", "index.html")));
+    }
+
+    [TestMethod]
     public void AddEditDeleteAndRepeatBuildsHaveNoStaleRecipes()
     {
-        Write("Meals/one.md", "# One\n\nOriginal");
+        Write("recipes/Meals/one.md", "# One\n\nOriginal");
         SiteBuilder.Build(root);
         var first = Output();
         SiteBuilder.Build(root);
         Assert.AreEqual(first, Output());
-        Write("Meals/one.md", "# One\n\nUpdated");
-        Write("New chapter/two.md", "# Two\n");
-        Assert.AreEqual(2, SiteBuilder.Build(root).RecipeCount);
+        Write("recipes/Meals/one.md", "# One\n\nUpdated");
+        Write("recipes/New chapter/deep/two.md", "# Two\n");
+        Write("recipes/three.md", "# Three");
+        var result = SiteBuilder.Build(root);
+        Assert.AreEqual(3, result.RecipeCount);
+        Assert.AreEqual(3, result.CategoryCount);
+        StringAssert.Contains(Output(), "data-category=\"New chapter\"");
+        StringAssert.Contains(Output(), "id=\"recipe-two\"");
+        StringAssert.Contains(Output(), "data-category=\"General\"");
         StringAssert.Contains(Output(), "Updated");
         Assert.IsFalse(Output().Contains("Original", StringComparison.Ordinal));
-        File.Delete(Path.Combine(root, "Meals", "one.md"));
-        Assert.AreEqual(1, SiteBuilder.Build(root).RecipeCount);
+        File.Delete(Path.Combine(root, "recipes", "Meals", "one.md"));
+        Assert.AreEqual(2, SiteBuilder.Build(root).RecipeCount);
         Assert.IsFalse(Output().Contains("recipe-one", StringComparison.Ordinal));
+        Assert.IsFalse(Output().Contains("data-category=\"Meals\"", StringComparison.Ordinal));
     }
 
     [TestMethod]
     public void PreservesRichSectionsAndMarksOnlySemanticIngredientLists()
     {
-        Write("Meals/meal.md", """
+        Write("recipes/Meals/meal.md", """
             # Café & *Cake*
 
             Intro **important**.
@@ -107,7 +179,7 @@ public sealed class SiteBuilderTests
     [TestMethod]
     public void EscapesRawHtmlAndKeepsRecipeTextOutOfTemplateProcessing()
     {
-        Write("Meals/safe.md", """
+        Write("recipes/Meals/safe.md", """
             # Safe "title"
 
             <script>alert('unsafe')</script>
@@ -124,11 +196,11 @@ public sealed class SiteBuilderTests
     [TestMethod]
     public void PreservesLegacyLinksForMatchingStandaloneRecipes()
     {
-        Write("Meals/pot.md", "# Pot Roast \u2013 In a Crock Pot");
-        Write("Drinks/coffee.md", "# Coffee - French Press Cold Brew");
-        Write("Drinks/whipped.md", "# Coffee - Instant - Whipped COffee");
-        Write("Dessert/pie.md", "# Pumpkin Pie");
-        Write("Sauces/gravy.md", "# Simple Brown Gravy");
+        Write("recipes/Meals/pot.md", "# Pot Roast \u2013 In a Crock Pot");
+        Write("recipes/Drinks/coffee.md", "# Coffee - French Press Cold Brew");
+        Write("recipes/Drinks/whipped.md", "# Coffee - Instant - Whipped COffee");
+        Write("recipes/Dessert/pie.md", "# Pumpkin Pie");
+        Write("recipes/Sauces/gravy.md", "# Simple Brown Gravy");
         SiteBuilder.Build(root);
         foreach (var id in new[] { "pot-roast-in-a-crock-pot", "coffee-french-press-cold-brew", "coffee-instant-whipped-coffee", "pumpkin-pie-remo", "gravy" })
             StringAssert.Contains(Output(), $"id=\"recipe-{id}\"");
@@ -137,7 +209,7 @@ public sealed class SiteBuilderTests
     [TestMethod]
     public void IngredientSubsectionsGetCheckboxListsButNestedDetailsDoNot()
     {
-        Write("Dessert/pie.md", """
+        Write("recipes/Dessert/pie.md", """
             # Pie
 
             ## Ingredients
@@ -164,7 +236,7 @@ public sealed class SiteBuilderTests
     [DataRow("[bad](#missing)")]
     public void RejectsUnsafeOrBrokenLinks(string markdown)
     {
-        Write("Meals/bad.md", "# Bad\n\n" + markdown);
+        Write("recipes/Meals/bad.md", "# Bad\n\n" + markdown);
         var exception = Assert.ThrowsExactly<InvalidOperationException>(() => SiteBuilder.Build(root));
         StringAssert.Contains(exception.Message, "bad.md");
         Assert.IsFalse(File.Exists(Path.Combine(root, "_site", "index.html")));
@@ -173,7 +245,7 @@ public sealed class SiteBuilderTests
     [TestMethod]
     public void ResolvesRelativeRecipeSectionsAndCopiesOnlyReferencedAssets()
     {
-        Write("Meals/First dish.md", """
+        Write("recipes/Meals/First dish.md", """
             # First
 
             [Next](../Dessert/Second%20dish.md#directions)
@@ -181,10 +253,10 @@ public sealed class SiteBuilderTests
             ![Photo](pictures/meal%20photo.png)
             [Notes](pictures/notes.pdf)
             """);
-        Write("Dessert/Second dish.md", "# Second\n\n## Directions\n1. Serve.\n");
-        Write("Meals/pictures/meal photo.png", "fixture image bytes");
-        Write("Meals/pictures/notes.pdf", "fixture PDF bytes");
-        Write("Meals/pictures/not-used.png", "not copied");
+        Write("recipes/Dessert/Second dish.md", "# Second\n\n## Directions\n1. Serve.\n");
+        Write("recipes/Meals/pictures/meal photo.png", "fixture image bytes");
+        Write("recipes/Meals/pictures/notes.pdf", "fixture PDF bytes");
+        Write("recipes/Meals/pictures/not-used.png", "not copied");
         SiteBuilder.Build(root);
 
         StringAssert.Contains(Output(), "href=\"#recipe-second-directions\"");
@@ -192,7 +264,7 @@ public sealed class SiteBuilderTests
         StringAssert.Contains(Output(), "src=\"assets/Meals/pictures/meal%20photo.png\"");
         Assert.AreEqual("fixture image bytes", File.ReadAllText(Path.Combine(root, "_site", "assets", "Meals", "pictures", "meal photo.png")));
         Assert.IsFalse(File.Exists(Path.Combine(root, "_site", "assets", "Meals", "pictures", "not-used.png")));
-        File.Delete(Path.Combine(root, "Meals", "First dish.md"));
+        File.Delete(Path.Combine(root, "recipes", "Meals", "First dish.md"));
         SiteBuilder.Build(root);
         Assert.IsFalse(File.Exists(Path.Combine(root, "_site", "assets", "Meals", "pictures", "meal photo.png")));
     }
@@ -203,7 +275,7 @@ public sealed class SiteBuilderTests
     [DataRow("## Missing title")]
     public void ReportsMissingTitlesWithSourcePath(string markdown)
     {
-        Write("Meals/broken.md", markdown);
+        Write("recipes/Meals/broken.md", markdown);
         var exception = Assert.ThrowsExactly<InvalidOperationException>(() => SiteBuilder.Build(root));
         StringAssert.Contains(exception.Message, "broken.md");
     }
@@ -211,13 +283,13 @@ public sealed class SiteBuilderTests
     [TestMethod]
     public void RejectsCollidingRecipeLinksAndCategoryLabels()
     {
-        Write("Meals/one.md", "# Same!");
-        Write("Meals/two.md", "# Same");
+        Write("recipes/Meals/one.md", "# Same!");
+        Write("recipes/Meals/two.md", "# Same");
         var exception = Assert.ThrowsExactly<InvalidOperationException>(() => SiteBuilder.Build(root));
         StringAssert.Contains(exception.Message, "conflicts");
-        File.Delete(Path.Combine(root, "Meals", "two.md"));
-        Write("Apps/a.md", "# A");
-        Write("Appetizers/b.md", "# B");
+        File.Delete(Path.Combine(root, "recipes", "Meals", "two.md"));
+        Write("recipes/Apps/a.md", "# A");
+        Write("recipes/Appetizers/b.md", "# B");
         exception = Assert.ThrowsExactly<InvalidOperationException>(() => SiteBuilder.Build(root));
         StringAssert.Contains(exception.Message, "Category label");
     }
@@ -225,10 +297,10 @@ public sealed class SiteBuilderTests
     [TestMethod]
     public void FailedBuildPreservesPreviouslyGeneratedSite()
     {
-        Write("Meals/one.md", "# One\n\nGood content");
+        Write("recipes/Meals/one.md", "# One\n\nGood content");
         SiteBuilder.Build(root);
         var original = Output();
-        Write("Meals/broken.md", "missing heading");
+        Write("recipes/Meals/broken.md", "missing heading");
         Assert.ThrowsExactly<InvalidOperationException>(() => SiteBuilder.Build(root));
         Assert.AreEqual(original, Output());
     }
@@ -236,7 +308,7 @@ public sealed class SiteBuilderTests
     [TestMethod]
     public void RejectsUnknownOrMissingTemplatePlaceholders()
     {
-        Write("Meals/one.md", "# One");
+        Write("recipes/Meals/one.md", "# One");
         Write("website/index.template.html", "{{NAVIGATION}}{{CATEGORY_TABS}}{{RECIPE_COUNT}}{{CATEGORY_COUNT}}{{RECIPE_CARDS}}{{UNKNOWN}}");
         var exception = Assert.ThrowsExactly<InvalidOperationException>(() => SiteBuilder.Build(root));
         StringAssert.Contains(exception.Message, "UNKNOWN");

@@ -14,10 +14,6 @@ public sealed record BuildResult(int RecipeCount, int CategoryCount, string Outp
 
 public static partial class SiteBuilder
 {
-    private static readonly HashSet<string> ReservedDirectories = new(StringComparer.OrdinalIgnoreCase)
-    {
-        "archive", "website", "tools", "tests", "_site", "bin", "obj", "TestResults", "node_modules"
-    };
     private static readonly string[] CategoryOrder = ["Apps", "Meals", "Dessert", "Drinks", "Sauces"];
     private static readonly HashSet<string> AssetExtensions = new(StringComparer.OrdinalIgnoreCase)
     {
@@ -33,9 +29,11 @@ public static partial class SiteBuilder
     {
         var root = Path.GetFullPath(repositoryRoot);
         RejectLink(root);
-        var recipes = Discover(root);
+        var recipesRoot = Path.Combine(root, "recipes");
+        RejectLink(recipesRoot);
+        var recipes = Discover(recipesRoot);
         if (recipes.Count == 0)
-            throw new InvalidOperationException($"No Markdown recipes found in category folders under {root}.");
+            throw new InvalidOperationException($"No Markdown recipes found under {recipesRoot}.");
 
         var byPath = new Dictionary<string, Recipe>(PathComparer);
         foreach (var recipe in recipes)
@@ -45,7 +43,7 @@ public static partial class SiteBuilder
         var cards = new StringBuilder();
         foreach (var recipe in recipes)
         {
-            PrepareDocument(recipe, byPath, root, assets);
+            PrepareDocument(recipe, byPath, recipesRoot, assets);
             cards.Append(RenderCard(recipe));
         }
 
@@ -116,17 +114,19 @@ public static partial class SiteBuilder
 
     private static List<Recipe> Discover(string root)
     {
-        var folders = new List<string>();
+        var folders = new List<string> { root };
         foreach (var folder in Directory.EnumerateDirectories(root))
-            if (EligibleDirectory(folder)) folders.Add(folder);
+            if (EligibleSourcePath(folder)) folders.Add(folder);
         folders.Sort((left, right) =>
         {
-            var a = Array.IndexOf(CategoryOrder, Path.GetFileName(left));
-            var b = Array.IndexOf(CategoryOrder, Path.GetFileName(right));
+            var leftName = left == root ? "General" : Path.GetFileName(left);
+            var rightName = right == root ? "General" : Path.GetFileName(right);
+            var a = Array.IndexOf(CategoryOrder, leftName);
+            var b = Array.IndexOf(CategoryOrder, rightName);
             if (a < 0) a = int.MaxValue;
             if (b < 0) b = int.MaxValue;
             var order = a.CompareTo(b);
-            return order != 0 ? order : StringComparer.Ordinal.Compare(left, right);
+            return order != 0 ? order : StringComparer.Ordinal.Compare(leftName, rightName);
         });
 
         var recipes = new List<Recipe>();
@@ -135,10 +135,11 @@ public static partial class SiteBuilder
         foreach (var folder in folders)
         {
             var files = new List<string>();
-            FindMarkdown(folder, files);
+            FindMarkdown(folder, files, recursive: folder != root);
             if (files.Count == 0) continue;
             var name = Path.GetFileName(folder);
-            var category = name switch { "Apps" => "Appetizers", "Dessert" => "Desserts", _ => name };
+            var category = folder == root ? "General" :
+                name switch { "Apps" => "Appetizers", "Dessert" => "Desserts", _ => name };
             if (labels.TryGetValue(category, out var otherFolder))
                 throw new InvalidOperationException($"Category label '{category}' is shared by {otherFolder} and {folder}. Rename one folder.");
             if (category.Equals("all", StringComparison.OrdinalIgnoreCase))
@@ -247,18 +248,20 @@ public static partial class SiteBuilder
 
         var withinRoot = Path.GetRelativePath(root, target);
         var parts = withinRoot.Split(Path.DirectorySeparatorChar);
-        if (parts.Length < 2 || parts[0] == ".." || !EligibleName(parts[0]) ||
+        if (parts[0] == ".." ||
             !AssetExtensions.Contains(Path.GetExtension(target)) ||
             (isImage && Path.GetExtension(target).Equals(".pdf", StringComparison.OrdinalIgnoreCase)))
-            throw new InvalidOperationException($"{recipe.Path}: unsupported or out-of-category asset '{url}'. Link to a discovered Markdown recipe or a category image/PDF.");
+            throw new InvalidOperationException($"{recipe.Path}: unsupported asset or asset outside recipes: '{url}'. Link to a discovered Markdown recipe or an image/PDF inside recipes.");
         var check = root;
         for (var index = 0; index < parts.Length; index++)
         {
             var part = parts[index];
-            if (index < parts.Length - 1 && !EligibleName(part))
-                throw new InvalidOperationException($"{recipe.Path}: asset URL uses a reserved directory: {url}.");
+            if (part.StartsWith('.'))
+                throw new InvalidOperationException($"{recipe.Path}: asset URL uses a hidden path: {url}.");
             check = Path.Combine(check, part);
             RejectLink(check);
+            if (Path.Exists(check) && (File.GetAttributes(check) & FileAttributes.Hidden) != 0)
+                throw new InvalidOperationException($"{recipe.Path}: asset URL uses a hidden path: {url}.");
         }
         if (!File.Exists(target))
             throw new InvalidOperationException($"{recipe.Path}: linked asset does not exist: {url}.");
@@ -385,28 +388,23 @@ public static partial class SiteBuilder
 
     private static string Encode(string value) => WebUtility.HtmlEncode(value);
 
-    private static bool EligibleName(string name) => !name.StartsWith('.') && !ReservedDirectories.Contains(name);
-
-    private static bool EligibleDirectory(string path)
+    private static bool EligibleSourcePath(string path)
     {
-        if (!EligibleName(Path.GetFileName(path))) return false;
-        RejectLink(path);
-        return (File.GetAttributes(path) & FileAttributes.Hidden) == 0;
+        if (Path.GetFileName(path).StartsWith('.')) return false;
+        return (File.GetAttributes(path) & (FileAttributes.Hidden | FileAttributes.ReparsePoint)) == 0;
     }
 
-    private static void FindMarkdown(string directory, List<string> files)
+    private static void FindMarkdown(string directory, List<string> files, bool recursive = true)
     {
         RejectLink(directory);
         foreach (var path in Directory.EnumerateFiles(directory))
         {
-            if (!Path.GetFileName(path).StartsWith('.') && Path.GetExtension(path).Equals(".md", StringComparison.OrdinalIgnoreCase))
-            {
-                RejectLink(path);
+            if (Path.GetExtension(path).Equals(".md", StringComparison.OrdinalIgnoreCase) && EligibleSourcePath(path))
                 files.Add(path);
-            }
         }
+        if (!recursive) return;
         foreach (var child in Directory.EnumerateDirectories(directory))
-            if (EligibleDirectory(child)) FindMarkdown(child, files);
+            if (EligibleSourcePath(child)) FindMarkdown(child, files);
     }
 
     private static string ReadFile(string path)
