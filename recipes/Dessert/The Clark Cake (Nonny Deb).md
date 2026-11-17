@@ -41,3 +41,7 @@
 1. Melt the chocolate and butter in a double boiler.
 2. Remove from the heat. Using electric beaters, slowly add the milk and salt.
 3. Add the sugar until the frosting stands in thick peaks.
+
+## Jo's Alternatives
+- For the filling, try [Jo's Chocolate Filling for Cake](./Jo%27s%20Chocolate%20Filling%20for%20Cake%20%28Nonny%20Deb%29.md). Use the cake filling as written there, not the pudding variation, and spread it between the layers as directed above.
+- For the frosting, try [Jo's Chocolate Butter Icing](./Jo%27s%20Chocolate%20Butter%20Icing%20%28Nonny%20Deb%29.md). Follow the linked recipe's quantities rather than scaling it by the cake's 3/4-batch label.
