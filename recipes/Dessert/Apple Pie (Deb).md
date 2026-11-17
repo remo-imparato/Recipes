@@ -2,7 +2,7 @@
 
 ## Ingredients
 - 4-5 cups apple slices
-- 1/2 tsp lemon or lime juice
+- 1/2 Tbsp Lemon or lime
 - 1/2 cup sugar
 - Cinnamon (quantity not specified)
 - Butter (quantity not specified)
@@ -16,4 +16,4 @@
 3. Bake at 450 F for 10 minutes, then at 350 F for 35 minutes. The source gives an alternative: bake at 400 F for 30 minutes.
 
 ## Note
-The amounts of cinnamon, butter, nuts, flour, and brown sugar are not specified clearly in the source.
+The source does not specify the amounts of cinnamon, butter, nuts, flour, or brown sugar. The citrus entry is also unclear: it reads "12 lemon or lime juice," possibly meaning the juice of 1/2 lemon or lime, but the source does not say.

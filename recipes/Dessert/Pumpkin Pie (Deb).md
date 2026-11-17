@@ -1,7 +1,7 @@
 # Pumpkin Pie (Deb)
 
 ## Ingredients
-- 2 eggs
+- 2 eggs (listed twice in the source; unclear whether 2 eggs total or 4)
 - 1/2 cup sugar
 - 1/4 cup maple syrup
 - 1 1/2 cups sour cream

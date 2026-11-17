@@ -2,7 +2,7 @@
 
 ## Ingredients
 - 4 Tbsp butter
-- Onion (quantity not specified)
+- 1 Onion
 - 4 cups chopped broccoli
 - 1 cup broccoli florets
 - 2 1/2 cups stock

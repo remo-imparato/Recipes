@@ -3,7 +3,7 @@
 ## Ingredients
 - 3 oz unsweetened chocolate, or substitute 3 Tbsp cocoa and 1 Tbsp butter per ounce of chocolate
 - 3 Tbsp butter
-- 1/4 cup milk
+- 1/4 cup milk (the source reads "14 c")
 - About 2 cups powdered sugar
 - 1 tsp vanilla
 - Salt (mentioned in the directions, but no amount is given)

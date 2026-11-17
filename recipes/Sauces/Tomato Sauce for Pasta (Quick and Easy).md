@@ -17,7 +17,7 @@
 1. Heat the olive oil in a frying pan. Add the garlic and saute until golden, taking care not to burn it.
 2. Add the herbs and celery and saute.
 3. Add the tomatoes, puree them first if desired, and add the tomato paste and salt. Simmer until the sauce is nearly done.
-4. Saute the ground beef separately and add it near the end. If desired, saute mushrooms separately and add them too.
+4. Saute the mushrooms and ground beef separately and add them when the sauce is nearly done.
 
 ## Note
-The source does not give a simmer time or specify the amount of pepper.
+The source does not give a simmer time, specify the amount of pepper, or give quantities for the ground beef and mushrooms.

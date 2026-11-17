@@ -11,4 +11,5 @@
 - 2/3 cup yogurt (optional)
 
 ## Directions
-The source specifies cooking the lentils for 25 minutes in 7 cups of water but gives no directions for preparing the remaining ingredients or finishing the soup.
+1. Cook the brown lentils in 7 cups of water for 25 minutes.
+2. The source gives no directions for preparing the remaining ingredients or finishing the soup.
