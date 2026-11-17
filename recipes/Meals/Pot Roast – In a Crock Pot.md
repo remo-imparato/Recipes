@@ -3,12 +3,13 @@
 ## Ingredients
 - 1 roast
 - 1 can French onion soup
-- 1 onion, cubed
+- 2 onions, cubed
 - 1 bag mini carrots
-- 4 potatoes, cubed
+- 1 package fresh, sliced mushrooms
+- 5-8 potatoes, cubed
 
 ## Directions
-Add all ingredients to the crock pot and simmer on medium for at least 6 hours.
+Clean and cut the vegetables and clean the meat. Add all ingredients to the crock pot and simmer on medium for at least 6 hours.
 
 ## Suggestion
 Serve with fresh rolls and heated gravy.

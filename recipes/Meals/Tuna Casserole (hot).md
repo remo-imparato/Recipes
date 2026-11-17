@@ -1,14 +1,15 @@
 # Tuna Casserole (hot)
 
 ## Ingredients
-- Pasta
+- 1 can solid white tuna in water
 - 1 can cream of mushroom soup
-- 1 can cut green beans, drained
-- Potato chips
-- Tuna
-- Salt and pepper
+- 1 1/2 cups uncooked pasta
+- 1 can cut green beans, drained (optional)
+- Shredded cheddar cheese (optional; amount not specified)
+- Regular potato chips, for topping
 
 ## Directions
-1. Boil and rinse the pasta. Combine it with the soup, green beans, and tuna; season with salt and pepper. Do not add the potato chips yet.
-2. Place in an uncovered casserole dish and bake at 350 F for 35 minutes.
-3. Remove the casserole and cover the top with crushed potato chips. Continue baking for 10-15 minutes.
+1. Cook the pasta until soft, drain, and rinse in warm water.
+2. Drain the tuna and break it up in a casserole dish. Add the cooked pasta, soup, and green beans, if using. Add cheese, if desired, and stir all ingredients together.
+3. Cover and bake at 350 F for 45 minutes.
+4. Uncover, sprinkle crushed potato chips on top, and bake for 15 more minutes.

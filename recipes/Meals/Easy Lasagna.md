@@ -17,8 +17,8 @@
 ## Directions
 1. Boil the noodles, rinse, and set aside.
 2. Brown the ground beef with the onion and garlic. Drain the grease.
-3. Add the spaghetti sauce and some oregano to the meat.
+3. Add the spaghetti sauce and oregano to the meat and let it simmer.
 4. Cook the spinach according to the package directions.
-5. In a separate bowl, combine the ricotta, egg, 1 cup Parmesan, 1/2 cup mozzarella, salt, and pepper.
+5. In a separate bowl, combine the ricotta, egg, spinach, Parmesan, 1 cup mozzarella, salt, and pepper.
 6. Layer the ingredients in a casserole dish: a thin layer of sauce, noodles, sauce, ricotta mixture, and mozzarella. Repeat until the pan is full.
-7. Bake at 350 F for 40-50 minutes. Let stand for 15 minutes before cutting or serving.
+7. Bake at 350 F for 40-50 minutes. Let stand for 15 minutes before cutting or serving. Serve with garlic Texas Toast.
