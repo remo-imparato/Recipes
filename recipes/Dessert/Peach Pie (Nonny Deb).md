@@ -1,0 +1,14 @@
+# Peach Pie (Nonny Deb)
+
+## Ingredients
+- Peaches (quantity not specified)
+- 1/2 cup sugar
+- 1/4 cup flour
+- Pie crust
+
+## Directions
+1. Slice the peaches and arrange them in the pie crust.
+2. Bake for 15 minutes at 400 F, then lower the oven to 300 F and bake for 50 minutes.
+
+## Note
+The source does not give the peach quantity or specify whether the crust is unbaked.
