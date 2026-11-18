@@ -12,4 +12,4 @@
 Clean and cut the vegetables and clean the meat. Add all ingredients to the crock pot and simmer on medium for at least 6 hours.
 
 ## Suggestion
-Serve with fresh rolls and heated gravy.
+Serve with fresh rolls and heated [gravy](../Sauces/Gravy.md).

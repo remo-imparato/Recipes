@@ -1,9 +1,9 @@
-# Simple Brown Gravy
+# Gravy
 
 ## Ingredients
 - 2 Tbsp butter
 - 2 Tbsp all-purpose flour
-- 2 cups beef broth (or chicken broth for poultry dishes)
+- 2 cups liquid (beef/chicken broth, pan drippings, etc.)
 - 1 tsp Worcestershire sauce (optional)
 - Salt and pepper, to taste
 

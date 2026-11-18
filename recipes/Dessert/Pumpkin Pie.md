@@ -13,7 +13,7 @@
 - 2 Tbsp unsalted butter, melted
 
 ### Filling
-- 1 (16 oz) can pumpkin puree (or puree prepared as below)
+- 16 oz pumpkin puree
 - 1 cup half-and-half
 - 1/2 tsp freshly grated nutmeg
 - 1/2 tsp kosher salt
@@ -23,16 +23,16 @@
 
 ## Directions
 
+### Make the crust
+1. Heat the oven to 350 F.
+2. Process the gingersnaps, brown sugar, and ginger into fine crumbs. Drizzle in the butter and pulse 8-10 times to combine.
+3. Press the mixture into the bottom and sides of a 9-inch glass pie dish, just over the lip. Place the dish on a half-sheet pan and bake until lightly browned, 10-12 minutes. Cool for at least 10 minutes before filling.
+
 ### Make the pumpkin puree
 1. Heat the oven to 400 F. Line a half-sheet pan with parchment paper.
 2. Slice a small piece of skin off one side of the pumpkin so it can lie flat without rolling. Using a large cleaver and mallet, remove the stem and split the pumpkin from top to bottom. Scoop out the seeds and fibers; rinse and reserve the seeds for another use. Cut the fibers with kitchen shears if necessary.
 3. Sprinkle the flesh with kosher salt and place the halves flesh-side down on the prepared pan. Roast until a paring knife can be inserted and removed easily, 30-45 minutes; test in several places.
 4. Cool the pumpkin on a wire rack for 1 hour. Scoop the flesh from the skin into a food processor and process until smooth, 3-4 minutes. Refrigerate for up to 1 week or freeze for up to 3 months.
-
-### Make the crust
-1. Heat the oven to 350 F.
-2. Process the gingersnaps, brown sugar, and ginger into fine crumbs. Drizzle in the butter and pulse 8-10 times to combine.
-3. Press the mixture into the bottom and sides of a 9-inch glass pie dish, just over the lip. Place the dish on a half-sheet pan and bake until lightly browned, 10-12 minutes. Cool for at least 10 minutes before filling.
 
 ### Make the pie
 1. Heat the oven to 350 F.

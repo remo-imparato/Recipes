@@ -27,3 +27,5 @@
 
 ## Note
 The source lists both 1 cup water and 1 cup water or broth, and later says to stir in wine and water or broth for gravy. The exact liquid allocation is unclear.
+
+For an alternative to the pan gravy, try [Gravy](../Sauces/Gravy.md) made with chicken broth.

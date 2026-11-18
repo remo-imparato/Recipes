@@ -16,4 +16,4 @@ Mama Stamberg's Cranberry Relish
 4. On Thanksgiving morning, move it from the freezer to the refrigerator to thaw. It should still have some small icy slivers.
 
 ## Notes
-Makes 1 1/2 pints. The source describes the relish as thick, creamy, and bright pink, with a tangy flavor that cuts through turkey and gravy. It is also good on leftover turkey sandwiches and with roast beef. The source calls this section "The Recipe's Origins."
+Makes 1 1/2 pints. The source describes the relish as thick, creamy, and bright pink, with a tangy flavor that cuts through turkey and [gravy](./Gravy.md). It is also good on leftover turkey sandwiches and with roast beef. The source calls this section "The Recipe's Origins."
