@@ -60,4 +60,4 @@ Start-Process .\_site\index.html
 
 The solution build generates the site in `_site/`. Build again after changing recipes or files in [website](website/). The output is ignored by Git and regenerated on each successful build; do not edit it manually. To generate the site without building the solution, run `dotnet run --project tools\RecipeSiteBuilder --configuration Release --no-restore -- .` after restoring dependencies.
 
-Recipes can be printed individually or as a filtered selection using the site’s print controls; choose **Save as PDF** in the browser’s print dialog to save a copy.
+Recipes can be printed individually or as a filtered selection using the site’s print controls. The print layout requests a 3.5-by-5-inch portrait page, with each recipe starting on a new card; longer recipes continue on additional cards. Choose **Save as PDF** in the browser’s print dialog to save a copy. Browser and printer settings may override the requested paper size; select 4 by 5 inches (or a custom size) and disable headers and footers if needed.
