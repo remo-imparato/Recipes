@@ -34,7 +34,7 @@ Use ordinary Markdown links. Relative links to recipes and section headings are 
 
 Open **Issues → New issue → Add a recipe** and fill in the form. Keep the `[Recipe]` title prefix. Requests opened by someone with write access are assigned to GitHub Copilot automatically. For outside submissions, a maintainer should review the issue and apply `recipe-approved` to start Copilot. Do not approve requests that ask for existing files to be changed.
 
-Copilot works on a branch from the default branch and prepares a draft pull request containing one new recipe. It will not make up missing recipe details or replace a duplicate. The [add-only check](.github/workflows/check-copilot-recipe.yml) flags any same-repository `copilot/` branch PR into `main` that changes anything other than one new Markdown file in an existing recipe category. Review the recipe and its diff before merging. Nothing merges automatically.
+Copilot works on a branch from the default branch and prepares a draft pull request containing up to four new recipes. It will not make up missing recipe details or replace a duplicate. The [add-only check](.github/workflows/check-copilot-recipe.yml) flags any same-repository `copilot/` branch PR into `main` that changes anything other than one to four new Markdown files in existing recipe categories. Review the recipes and their diff before merging. Nothing merges automatically.
 
 To enable this after merging the [assignment workflow](.github/workflows/assign-recipe-issue.yml) into `main`:
 
