@@ -36,14 +36,7 @@ jobs:
           added_file='^:000000 100644 [0-9a-f]+ [0-9a-f]+ A$'
           recipe_path='^recipes/(Apps|Dessert|Drinks|Meals|Sauces)/[^/]+\.md$'
 
-          if [[ ${#changes[@]} -lt 2 || ${#changes[@]} -gt 8 || $(( ${#changes[@]} % 2 )) -ne 0 ]]; then
-            echo "::error::Copilot may only add one to four regular .md files directly inside existing recipe categories."
+          if [[ ${#changes[@]} -ne 2 || ! ${changes[0]} =~ $added_file || ! ${changes[1]} =~ $recipe_path ]]; then
+            echo "::error::Copilot may only add one regular .md file directly inside an existing recipe category."
             exit 1
           fi
-
-          for ((i = 0; i < ${#changes[@]}; i += 2)); do
-            if [[ ! ${changes[i]} =~ $added_file || ! ${changes[i + 1]} =~ $recipe_path ]]; then
-              echo "::error::Copilot may only add one to four regular .md files directly inside existing recipe categories."
-              exit 1
-            fi
-          done
