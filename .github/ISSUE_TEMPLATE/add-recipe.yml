@@ -18,20 +18,14 @@ body:
         - Drinks
         - Meals
         - Sauces
-    validations:
-      required: true
-  - type: textarea
-    id: ingredients
-    attributes:
-      label: Ingredients
-      description: Include amounts and units where known. Put each ingredient on its own line.
+        - Soups
     validations:
       required: true
   - type: textarea
     id: directions
     attributes:
       label: Directions
-      description: List the steps in order. Include temperatures and times where known.
+      description: List the steps in order, including temperatures and times where known, or provide a public recipe link.
     validations:
       required: true
   - type: textarea
