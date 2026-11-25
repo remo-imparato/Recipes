@@ -874,13 +874,17 @@
 
             .nav-list {
                 display: flex;
-                overflow-x: auto;
-                gap: 12px;
+                flex-wrap: wrap;
+                gap: 0 12px;
                 padding-top: 18px;
             }
 
+            .nav-list li {
+                min-width: 0;
+            }
+
             .nav-list a {
-                white-space: nowrap;
+                overflow-wrap: anywhere;
                 padding: 8px 11px;
                 margin-bottom: 12px;
             }
