@@ -1,31 +1,18 @@
-name: Add a recipe
-description: Submit one new recipe for the cookbook.
+name: Add recipes
+description: Submit new recipes for the cookbook.
 title: "[Recipe] "
 body:
   - type: input
     id: recipe-name
     attributes:
-      label: Recipe name
-    validations:
-      required: true
-  - type: dropdown
-    id: category
-    attributes:
-      label: Category
-      options:
-        - Appetizers (Apps)
-        - Desserts (Dessert)
-        - Drinks
-        - Meals
-        - Sauces
-        - Soups
+      label: Recipe name(s)
     validations:
       required: true
   - type: textarea
     id: directions
     attributes:
       label: Directions
-      description: List the steps in order, including temperatures and times where known, or provide a public recipe link.
+      description: For each recipe, include ingredients, measurements, and steps in order, or provide a public recipe link.
     validations:
       required: true
   - type: textarea

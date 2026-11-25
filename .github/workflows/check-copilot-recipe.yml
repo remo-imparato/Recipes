@@ -21,7 +21,7 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.base.sha }}
           fetch-depth: 0
-      - name: Verify one new recipe and no other file changes
+      - name: Verify new recipes and no other file changes
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
@@ -36,7 +36,13 @@ jobs:
           added_file='^:000000 100644 [0-9a-f]+ [0-9a-f]+ A$'
           recipe_path='^recipes/(Apps|Dessert|Drinks|Meals|Sauces|Soups)/[^/]+\.md$'
 
-          if [[ ${#changes[@]} -ne 2 || ! ${changes[0]} =~ $added_file || ! ${changes[1]} =~ $recipe_path ]]; then
-            echo "::error::Copilot may only add one regular .md file directly inside an allowed recipe category."
+          if (( ${#changes[@]} == 0 || ${#changes[@]} % 2 != 0 )); then
+            echo "::error::Copilot must add at least one recipe Markdown file."
             exit 1
           fi
+          for ((i = 0; i < ${#changes[@]}; i += 2)); do
+            if [[ ! ${changes[i]} =~ $added_file || ! ${changes[i+1]} =~ $recipe_path ]]; then
+              echo "::error::Copilot may only add regular .md files directly inside allowed recipe categories."
+              exit 1
+            fi
+          done
