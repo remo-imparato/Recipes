@@ -14,7 +14,7 @@ public sealed record BuildResult(int RecipeCount, int CategoryCount, string Outp
 
 public static partial class SiteBuilder
 {
-    private static readonly string[] CategoryOrder = ["Apps", "Meals", "Dessert", "Drinks", "Sauces"];
+    private static readonly string[] CategoryOrder = ["Appetizers", "Meals", "Desserts", "Drinks", "Sauces"];
     private static readonly HashSet<string> AssetExtensions = new(StringComparer.OrdinalIgnoreCase)
     {
         ".png", ".jpg", ".jpeg", ".gif", ".webp", ".avif", ".pdf"
@@ -138,8 +138,7 @@ public static partial class SiteBuilder
             FindMarkdown(folder, files, recursive: folder != root);
             if (files.Count == 0) continue;
             var name = Path.GetFileName(folder);
-            var category = folder == root ? "General" :
-                name switch { "Apps" => "Appetizers", "Dessert" => "Desserts", _ => name };
+            var category = folder == root ? "General" : name;
             if (labels.TryGetValue(category, out var otherFolder))
                 throw new InvalidOperationException($"Category label '{category}' is shared by {otherFolder} and {folder}. Rename one folder.");
             if (category.Equals("all", StringComparison.OrdinalIgnoreCase))
@@ -351,7 +350,6 @@ public static partial class SiteBuilder
             "all" => "&#9783;", "Meals" => "&#9832;", "Desserts" => "&#9825;",
             "Drinks" => "&#9749;", "Sauces" => "&#10087;", _ => "&#10035;"
         };
-        if (category == "Sauces") label = "Sauces & seasonings";
         return $"<li><a href=\"#recipes\" data-chapter=\"{Encode(category)}\"{(category == "all" ? " aria-current=\"page\"" : "")}><span class=\"nav-icon\" aria-hidden=\"true\">{icon}</span><span>{Encode(label)}</span><span class=\"nav-count\">{count}</span></a></li>";
     }
 

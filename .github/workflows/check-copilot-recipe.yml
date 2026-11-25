@@ -34,7 +34,7 @@ jobs:
           git diff --raw --no-abbrev --no-renames -z "$BASE_SHA...$HEAD_SHA" -- > "$diff_file"
           mapfile -d '' -t changes < "$diff_file"
           added_file='^:000000 100644 [0-9a-f]+ [0-9a-f]+ A$'
-          recipe_path='^recipes/(Apps|Dessert|Drinks|Meals|Sauces|Soups)/[^/]+\.md$'
+          recipe_path='^recipes/([^/]+)/([^/]+\.md)$'
 
           if (( ${#changes[@]} == 0 || ${#changes[@]} % 2 != 0 )); then
             echo "::error::Copilot must add at least one recipe Markdown file."
@@ -42,7 +42,13 @@ jobs:
           fi
           for ((i = 0; i < ${#changes[@]}; i += 2)); do
             if [[ ! ${changes[i]} =~ $added_file || ! ${changes[i+1]} =~ $recipe_path ]]; then
-              echo "::error::Copilot may only add regular .md files directly inside allowed recipe categories."
+              echo "::error::Copilot may only add regular .md files directly inside existing recipe categories."
+              exit 1
+            fi
+            category=${BASH_REMATCH[1]}
+            filename=${BASH_REMATCH[2]}
+            if [[ $category == .* || $filename == .* || $(git cat-file -t "$BASE_SHA:recipes/$category" 2>/dev/null) != tree ]]; then
+              echo "::error::The recipe category must be a non-hidden folder present in the base branch."
               exit 1
             fi
           done

@@ -22,7 +22,7 @@ Add or edit `.md` files under `recipes/`. Each recipe must start with a non-empt
 2. Next step.
 ```
 
-The first folder under `recipes/` sets the category; nested folders stay in that category. For example, `recipes/Meals/Soups/soup.md` appears under **Meals**. `Apps` displays as **Appetizers** and `Dessert` as **Desserts**. Files directly under `recipes/` appear under **General**; do not also add a `General` folder containing recipes. New categories need no code changes. Category labels must be unique, and `all` is reserved.
+The first folder under `recipes/` sets the category name; nested folders stay in that category. For example, `recipes/Meals/Soups/soup.md` appears under **Meals**. Files directly under `recipes/` appear under **General**; do not also add a `General` folder containing recipes. New categories need no code changes. Category labels must be unique, and `all` is reserved.
 
 Keep recipe titles distinct because punctuation and accents are normalized when creating links. Renaming a file without changing its title preserves its link; changing the title may change it. Ingredient lists under an `Ingredients` section get checkboxes automatically.
 

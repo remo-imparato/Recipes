@@ -23,8 +23,8 @@ public sealed class SiteBuilderTests
     [TestMethod]
     public void DiscoversCategoriesAndNestedRecipesWhileIgnoringInfrastructure()
     {
-        Write("recipes/Apps/Starter.md", "# Starter\n\n## Ingredients\n- Salt\n");
-        Write("recipes/Dessert/nested/Sweet.MD", "# Sweet\n");
+        Write("recipes/Appetizers/Starter.md", "# Starter\n\n## Ingredients\n- Salt\n");
+        Write("recipes/Desserts/nested/Sweet.MD", "# Sweet\n");
         Write("recipes/Breakfast/Eggs.md", "# Eggs\n");
         Write("Meals/root-level.md", "# Ignored");
         foreach (var ignored in new[] { "README.md", "archive/old.md", "tools/example.md", "tests/example.md", "_site/stale.md", ".private/secret.md", "recipes/.private/secret.md", "recipes/.hidden.md", "recipes/Meals/.private/secret.md" })
@@ -42,6 +42,28 @@ public sealed class SiteBuilderTests
         Assert.IsLessThan(html.IndexOf("id=\"recipe-eggs\"", StringComparison.Ordinal), html.IndexOf("id=\"recipe-sweet\"", StringComparison.Ordinal));
         Assert.IsFalse(File.Exists(Path.Combine(root, "_site", "stale.md")));
         Assert.IsFalse(Directory.Exists(Path.Combine(root, "_site", "archive")));
+    }
+
+    [TestMethod]
+    public void UsesFolderNamesAsCategoryLabelsWithoutAliases()
+    {
+        Write("recipes/Apps/legacy.md", "# Legacy appetizer");
+        Write("recipes/Appetizers/starter.md", "# Starter");
+        Write("recipes/Dessert/legacy.md", "# Legacy dessert");
+        Write("recipes/Desserts/sweet.md", "# Sweet");
+        Write("recipes/Sauces/sauce.md", "# Sauce");
+        Write("recipes/Spices/spice.md", "# Spice");
+
+        var result = SiteBuilder.Build(root);
+        var html = Output();
+
+        Assert.AreEqual(6, result.CategoryCount);
+        foreach (var category in new[] { "Apps", "Appetizers", "Dessert", "Desserts", "Sauces", "Spices" })
+        {
+            StringAssert.Contains(html, $"data-category=\"{category}\"");
+            StringAssert.Contains(html, $"data-chapter=\"{category}\"");
+        }
+        Assert.IsFalse(html.Contains("Sauces &amp; seasonings", StringComparison.Ordinal));
     }
 
     [TestMethod]
@@ -288,8 +310,8 @@ public sealed class SiteBuilderTests
         var exception = Assert.ThrowsExactly<InvalidOperationException>(() => SiteBuilder.Build(root));
         StringAssert.Contains(exception.Message, "conflicts");
         File.Delete(Path.Combine(root, "recipes", "Meals", "two.md"));
-        Write("recipes/Apps/a.md", "# A");
-        Write("recipes/Appetizers/b.md", "# B");
+        Write("recipes/General/a.md", "# A");
+        Write("recipes/b.md", "# B");
         exception = Assert.ThrowsExactly<InvalidOperationException>(() => SiteBuilder.Build(root));
         StringAssert.Contains(exception.Message, "Category label");
     }

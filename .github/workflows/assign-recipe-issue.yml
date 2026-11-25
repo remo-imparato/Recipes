@@ -39,10 +39,10 @@ jobs:
 
             Start from the assigned base branch and use your own branch and draft pull request.
             Read README.md and nearby recipes to follow the repository conventions. For each
-            recipe, choose the best matching category based on its contents: recipes/Apps,
-            recipes/Dessert, recipes/Drinks, recipes/Meals, recipes/Sauces, or recipes/Soups.
+            recipe, choose the best matching existing category folder under recipes based on
+            its contents.
             Use a Windows-safe, descriptive filename ending in .md. Add one regular Markdown
-            file per recipe directly in its category, creating recipes/Soups if needed.
+            file per recipe directly in its category.
 
             Start each file with a non-empty `# Recipe title`, then `## Ingredients` with a bulleted list
             and `## Directions` with a numbered list. Include yield, variations, or credit only
