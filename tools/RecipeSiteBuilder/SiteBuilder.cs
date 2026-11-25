@@ -298,7 +298,8 @@ public static partial class SiteBuilder
         var art = recipe.Category switch
         {
             "Appetizers" => "appetizers", "Desserts" => "desserts", "Drinks" => "drinks",
-            "Sauces" => "sauces", _ => "meals"
+            "Meals" => "meals", "Sauces" => "sauces", "Soups" => "soups",
+            "Spices" => "spices", _ => "general"
         };
         var body = RenderBody(recipe.Document);
         return $"""

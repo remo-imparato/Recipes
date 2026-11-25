@@ -63,7 +63,24 @@ public sealed class SiteBuilderTests
             StringAssert.Contains(html, $"data-category=\"{category}\"");
             StringAssert.Contains(html, $"data-chapter=\"{category}\"");
         }
-        Assert.IsFalse(html.Contains("Sauces &amp; seasonings", StringComparison.Ordinal));
+        Assert.IsFalse(html.Contains("Sauces", StringComparison.Ordinal));
+    }
+
+    [TestMethod]
+    public void UsesCategorySpecificArtworkAndNeutralArtworkForUnknownCategories()
+    {
+        foreach (var category in new[] { "Appetizers", "Meals", "Desserts", "Drinks", "Sauces", "Soups", "Spices", "Breakfast" })
+            Write($"recipes/{category}/recipe.md", $"# {category} recipe");
+
+        SiteBuilder.Build(root);
+        var html = Output().Replace("\r\n", "\n", StringComparison.Ordinal);
+
+        foreach (var category in new[] { "Appetizers", "Meals", "Desserts", "Drinks", "Sauces", "Soups", "Spices", "Breakfast" })
+        {
+            var art = category == "Breakfast" ? "general" : category.ToLowerInvariant();
+            StringAssert.Contains(html, $"data-category=\"{category}\">\n  <summary>\n    <div class=\"card-art\" data-art=\"{art}\"");
+            StringAssert.Contains(html, $"href=\"#art-{art}\"");
+        }
     }
 
     [TestMethod]

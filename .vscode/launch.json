@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [{
+    "name": "Debug recipe site builder",
+    "type": "coreclr",
+    "request": "launch",
+    "program": "${workspaceFolder}\\tools\\RecipeSiteBuilder\\bin\\Debug\\net10.0\\RecipeSiteBuilder.dll",
+    "args": ["${workspaceFolder}"],
+    "cwd": "${workspaceFolder}"
+  }]
+}
